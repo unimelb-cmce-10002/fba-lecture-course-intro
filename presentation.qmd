@@ -1,7 +1,10 @@
 ---
-title: "Presentation"
-author: "Lachlan Deer"
-institute: "Somewhere"
+title: "Foundations of Business Analytics"
+subtitle: "Course Introduction"
+author: "Lachlan Deer & Patrick Ferguson"
+institute: "CMCE-10002, University of Melbourne"
+date: today
+date-format: long
 format: 
   beamer: 
     aspectratio: 32
@@ -9,34 +12,202 @@ format:
     theme: mousteau
 ---
 
-# In the morning
+## Learning Goals for this Class
 
-## Getting up
+* Meet your Instructors
+* Describe the logistical structure of the course
+* List the topic coverage in this course
+* Explain how you will be assessed
+* XYZ
 
-- Turn off alarm
-- Get out of bed
+# A Quick Intro to Business Analytics 
 
-## Breakfast
+## What is Business Analytics?
 
-- Eat eggs
-- Drink coffee
+Content
 
-# In the evening
+# Meet the Teaching Team
 
-## Dinner
+## Lecturers 
 
-- Eat spaghetti
-- Drink wine
+Content
 
-## Going to sleep
+## Tutor Team
 
-- Get in bed
-- Count sheep
+Content
 
-# Before I Sleep
+# Logistics
 
-## I write equations
+## Class Structure 
 
-$$
-y = x \beta + \varepsilon
-$$
+Content
+
+## Lectures 
+
+Content
+
+## Tutorials 
+
+Content
+
+## The Recordings Question 
+
+Content
+
+## Where to Find Stuff
+
+Content
+
+## Interactions with Peers and Instructors
+
+Content
+
+## Textbooks and Readings 
+
+Content
+
+# Where we are going
+
+## Course Objectives 
+
+Content
+
+## What we will cover 
+
+Content
+
+## Building an Analytics Toolkit
+
+Content
+
+# Assessment 
+
+## Assessment Summary
+
+Content
+
+## Break
+
+# What is Business Analytics  
+
+## What is Business Analytics (redux)
+
+Content
+
+## Evolution of Business Decision Making
+
+Content
+
+## The Business Analytics Process 
+
+Content
+
+## Three Types of Business Analytics 
+
+Content
+
+## Descriptive Analytics 
+
+Content
+
+## Predictive Analytics 
+
+Content
+
+## Causal Analytics 
+
+Content
+
+## Exercise 
+
+Content
+
+# The Power and Limits of Business Analytics 
+
+## Good Decisions Need Good Data
+
+Content
+
+## Analytics Doesn't Eliminate Uncertainty
+
+Content
+
+## The Analysts Role 
+
+Content
+
+# Core Skills of A Business Scientist
+
+## A Scientific Mindset Within a Business
+
+Content
+
+## The Business Scientist Mindset
+
+Content
+
+# The 8 Skills of a Business Scientist
+
+##  Understand the Business World
+
+Content
+
+## Find the Right Data
+
+Content
+
+## Understand People and Firms
+
+Content
+
+## Choose the Right Tool
+
+Content
+
+## Know What Can Go Wrong
+
+Content
+
+##  Work with Code and Technology
+
+Content
+
+## Communicate What You Find
+
+Content
+
+## Ask the Right Questions
+
+Content
+
+## Check-In: Which Skills Do You Already Have?
+
+Content
+
+## How to Combine Skills in Practice
+
+Content
+
+# Ethics in Business Analytics 
+
+## Data Uses Raises Ethics Issues 
+
+Content
+
+# How to Approach this Course 
+
+## How to Approach this Course 
+
+Content
+
+## What if I don't know everything yet? 
+
+Content
+
+## Wrap Up 
+
+Content
+
+## Citation
+
+Content
