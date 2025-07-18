@@ -1,0 +1,42 @@
+---
+title: "Presentation"
+author: "Lachlan Deer"
+institute: "Somewhere"
+format: 
+  beamer: 
+    aspectratio: 32
+    navigation: horizontal
+    theme: mousteau
+---
+
+# In the morning
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+## Breakfast
+
+- Eat eggs
+- Drink coffee
+
+# In the evening
+
+## Dinner
+
+- Eat spaghetti
+- Drink wine
+
+## Going to sleep
+
+- Get in bed
+- Count sheep
+
+# Before I Sleep
+
+## I write equations
+
+$$
+y = x \beta + \varepsilon
+$$

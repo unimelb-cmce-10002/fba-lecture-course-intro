@@ -1,0 +1,283 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{beamerinnerthememousteau}[2019-04-25 Mousteau inner theme]
+
+
+\RequirePackage{etoolbox}
+\RequirePackage{tikz}
+
+
+\setbeamertemplate{title page}
+{
+\vbox{}
+\vfill
+\ifx\inserttitle\@empty\else\usebeamertemplate*{title}\fi
+\ifx\insertsubtitle\@empty\else\usebeamertemplate*{subtitle}\fi
+\ifx\insertdate\@empty\else\usebeamertemplate*{date}\fi
+\ifx\beamer@shortauthor\@empty\else\usebeamertemplate*{author}\fi
+\ifx\insertinstitute\@empty\else\usebeamertemplate*{institute}\fi
+\vfill
+}
+
+\setbeamertemplate{title}{
+  \raggedright%
+  \usebeamerfont{title}%
+  \usebeamercolor[fg]{title}%
+  \inserttitle
+  \par%
+  \vspace*{0.5em}
+}
+
+\setbeamertemplate{subtitle}{
+  \raggedright%
+  \usebeamerfont{subtitle}%
+  \usebeamercolor[fg]{subtitle}%
+  \insertsubtitle
+  \par%
+  \vspace*{0.5em}
+}
+
+\setbeamertemplate{author}{
+  \usebeamerfont{author}%
+  \usebeamercolor[fg]{author}%
+  \insertauthor
+  \par%
+  \vspace*{0.25em}
+}
+
+\setbeamertemplate{date}{
+  \vspace*{2em}
+  \insertdate
+  \par%
+}
+
+\setbeamertemplate{institute}{
+  \insertinstitute
+  \par%
+}
+
+
+
+\setbeamertemplate{section page}{\vspace{4cm} \usebeamercolor[fg]{section number}\usebeamerfont{section number} \insertsectionnumber/ \usebeamercolor[fg]{section title}\usebeamerfont{section title} \insertsection}
+
+\AtBeginSection{
+  \ifbeamer@inframe
+  \sectionpage
+  \else
+  \frame[plain,c,noframenumbering]{\sectionpage}
+  \fi
+}
+
+\setbeamertemplate{section in toc}[sections numbered]
+\setbeamertemplate{itemize items}{\textbullet}
+
+
+\newcommand{\imageframe}[1]{%
+  \begin{frame}[plain]
+    \begin{tikzpicture}[remember picture, overlay]
+      \node[at = (current page.center), xshift = 0cm] (cover) {%
+        \includegraphics[keepaspectratio, width=\paperwidth,
+        height=\paperheight]{#1}};\end{tikzpicture}\end{frame}%
+}
+
+%% from metropolis theme by Matthias Vogelgesang https://github.com/matze/mtheme
+\providebool{cousteau@standout}
+\define@key{beamerframe}{standout}[true]{%
+  \booltrue{cousteau@standout}
+  \begingroup
+    \setkeys{beamerframe}{c}
+    \setkeys{beamerframe}{noframenumbering}
+    \ifbeamercolorempty[bg]{palette primary}{
+      \setbeamercolor{background canvas}{
+        use=palette primary,
+        bg=-palette primary.fg
+      }
+    }{
+      \setbeamercolor{background canvas}{
+        use=palette primary,
+        bg=palette primary.bg
+      }
+    }
+    \setbeamercolor{local structure}{
+      fg=palette primary.fg
+    }
+    \usebeamercolor[fg]{palette primary}
+}
+%    \end{macrocode}
+%
+%    Then we just have to close the group after the standout slide is finished
+%    in order to restore the colours and fonts for the rest of the
+%    presentation. Unfortunately, we cannot use \AfterEndEnvironment{frame} for
+%    this (see \url{http://tex.stackexchange.com/questions/226319/}).
+%    Instead, we prepend the |\endgroup| to |\beamer@reseteecodes|, which is run
+%    exactly once at the end of each slide.
+%
+%    \begin{macrocode}
+  \pretocmd{\beamer@reseteecodes}{%
+    \ifbool{cousteau@standout}{
+      \endgroup
+      \boolfalse{cousteau@standout}
+    }{}
+  }{}{}
+%    \end{macrocode}
+%
+%    We set the fonts and the \centering alignment on the inner content,
+%    in such a way that the speaker's note layout isn't affected by the custom
+%    formatting.
+%
+%    \begin{macrocode}
+  \AtBeginEnvironment{beamer@frameslide}{
+    \ifbool{cousteau@standout}{
+      \centering
+      \usebeamerfont{standout}
+    }{}
+  }
+
+
+% By default, Beamer frames offer the |c| option to \textit{almost} vertically
+% center the text, but the placement is a little too high. To fix this, we
+% redefine the |c| option to equalize |\beamer@frametopskip| and
+% |\beamer@framebottomskip|. This solution was suggested by Enrico Gregorio in
+% an answer to \href{http://tex.stackexchange.com/questions/247826/}{this
+% Stack Exchange question}. Adapted from the Metropolis theme. 
+%
+\define@key{beamerframe}{c}[true]{% centered
+  \beamer@frametopskip=0pt plus 1fill\relax%
+  \beamer@framebottomskip=0pt plus 1fill\relax%
+  \beamer@frametopskipautobreak=0pt plus .4\paperheight\relax%
+  \beamer@framebottomskipautobreak=0pt plus .6\paperheight\relax%
+  \def\beamer@initfirstlineunskip{}%
+}
+
+\tikzset{
+  roundbox/.style={rectangle,
+    rounded corners,
+    fill = cousteau@heritageblue,
+    text = cousteau@magpie,
+    align=flush center,
+    minimum height = 1.05\baselineskip},
+  roundbox-red/.style={rectangle,
+    rounded corners,
+    fill = cousteau@blacksheoak,
+    text = cousteau@magpie,
+    align = flush center}
+}
+\tikzset{minh1/.style={minimum height = \baselineskip}}
+\tikzset{minh2/.style={minimum height = 2\baselineskip}}
+\tikzset{minh3/.style={minimum height = 3\baselineskip}}
+
+\def\cousteau@gridgap{0.03\textwidth}
+\def\cousteau@gridtextgap{0.02\textwidth}
+
+%% widths for tikz objects
+\tikzset{%
+  is-10/.style = {minimum width = 0.1\textwidth - \cousteau@gridgap,
+    text width = 0.1\textwidth - \cousteau@gridgap - \cousteau@gridtextgap},
+  is-20/.style = {minimum width = 0.2\textwidth - \cousteau@gridgap,
+    text width = 0.2\textwidth - \cousteau@gridgap - \cousteau@gridtextgap},
+  is-25/.style = {minimum width = 0.25\textwidth - \cousteau@gridgap,
+    text width = 0.25\textwidth - \cousteau@gridgap - \cousteau@gridtextgap},
+  is-30/.style = {minimum width = 0.3\textwidth - \cousteau@gridgap,
+    text width = 0.3\textwidth - \cousteau@gridgap - \cousteau@gridtextgap},
+  is-33/.style = {minimum width = 0.3333\textwidth - \cousteau@gridgap,
+    text width = 0.3333\textwidth - \cousteau@gridgap - \cousteau@gridtextgap},
+  is-34/.style = {minimum width = 0.3333\textwidth - \cousteau@gridgap,
+    text width = 0.3333\textwidth - \cousteau@gridgap - \cousteau@gridtextgap},
+  is-40/.style = {minimum width = 0.4\textwidth - \cousteau@gridgap,
+    text width = 0.4\textwidth - \cousteau@gridgap - \cousteau@gridtextgap},
+  is-50/.style = {minimum width = 0.5\textwidth - \cousteau@gridgap,
+    text width = 0.5\textwidth - \cousteau@gridgap - \cousteau@gridtextgap},
+  is-60/.style = {minimum width = 0.6\textwidth - \cousteau@gridgap,
+    text width = 0.6\textwidth - \cousteau@gridgap - \cousteau@gridtextgap},
+  is-66/.style = {minimum width = 0.6666\textwidth - \cousteau@gridgap,
+    text width = 0.6666\textwidth - \cousteau@gridgap - \cousteau@gridtextgap},
+  is-67/.style = {minimum width = 0.6666\textwidth - \cousteau@gridgap,
+    text width = 0.6666\textwidth - \cousteau@gridgap - \cousteau@gridtextgap},
+  is-70/.style = {minimum width = 0.7\textwidth - \cousteau@gridgap,
+    text width = 0.7\textwidth - \cousteau@gridgap - \cousteau@gridtextgap},
+  is-75/.style = {minimum width = 0.75\textwidth - \cousteau@gridgap,
+    text width = 0.75\textwidth - \cousteau@gridgap - \cousteau@gridtextgap},
+  is-80/.style = {minimum width = 0.8\textwidth - \cousteau@gridgap,
+    text width = 0.8\textwidth - \cousteau@gridgap - \cousteau@gridtextgap},
+  is-90/.style = {minimum width = 0.9\textwidth - \cousteau@gridgap,
+    text width = 0.9\textwidth - \cousteau@gridgap - \cousteau@gridtextgap},
+}
+
+
+%% 33%/66% columns
+\tikzset{col33 left/.style={at = (current page.west), is-33,
+    xshift = {\beamer@leftmargin + 0.16666\textwidth}}}
+\tikzset{col66 right/.style={at = (current page.east),
+    xshift = {-\beamer@leftmargin - 0.3333\textwidth},
+    minimum width = 0.66\textwidth - 0.03\textwidth,
+    text width = 0.66\textwidth - 0.05\textwidth}}
+\tikzset{col33 right/.style={at = (current page.east),
+    xshift = {-\beamer@leftmargin - 0.16666\textwidth},
+    minimum width = 0.333\textwidth - 0.03\textwidth,
+    text width = 0.33\textwidth - 0.05\textwidth}}
+\tikzset{col66 left/.style={at = (current page.west),
+    xshift = {\beamer@leftmargin + 0.3333\textwidth},
+    minimum width = 0.66\textwidth - 0.03\textwidth,
+    text width = 0.66\textwidth - 0.05\textwidth}}
+\tikzset{col33 center/.style={at = (current page.center), is-33}}
+\tikzset{col66 center/.style={at = (current page.center), is-66}}
+
+%% 10/90 columns
+\tikzset{col10 left/.style={at = (current page.west),
+    xshift = {\beamer@leftmargin+0.05\textwidth},
+    minimum width = 0.1\textwidth - 0.03\textwidth,
+    text width = 0.1\textwidth - 0.05\textwidth}}
+\tikzset{col90 right/.style={at = (current page.east),
+    xshift = {-\beamer@leftmargin-0.45\textwidth},
+    minimum width = 0.9\textwidth - 0.03\textwidth,
+    text width = 0.9\textwidth - 0.05\textwidth}}
+\tikzset{col10 right/.style={at = (current page.east),
+    xshift = {-\beamer@leftmargin-0.05\textwidth},
+    minimum width = 0.1\textwidth - 0.03\textwidth,
+    text width = 0.1\textwidth - 0.05\textwidth}}
+\tikzset{col90 left/.style={at = (current page.west),
+    xshift = {\beamer@leftmargin+0.45\textwidth},
+    minimum width = 0.9\textwidth - 0.03\textwidth,
+    text width = 0.9\textwidth - 0.05\textwidth}}
+
+%% 80/20 
+\tikzset{col20 left/.style={at = (current page.west),
+    xshift = {\beamer@leftmargin+0.1\textwidth},
+    minimum width = 0.2\textwidth - 0.03\textwidth,
+    text width = 0.2\textwidth - 0.05\textwidth}}
+\tikzset{col80 right/.style={at = (current page.east),
+    xshift = {-\beamer@leftmargin-0.4\textwidth},
+    minimum width = 0.8\textwidth - 0.03\textwidth,
+    text width = 0.8\textwidth - 0.05\textwidth}}
+\tikzset{col20 right/.style={at = (current page.east),
+    xshift = {-\beamer@leftmargin-0.1\textwidth},
+    minimum width = 0.2\textwidth - 0.03\textwidth,
+    text width = 0.2\textwidth - 0.05\textwidth}}
+\tikzset{col80 left/.style={at = (current page.west),
+    xshift = {\beamer@leftmargin+0.4\textwidth},
+    minimum width = 0.8\textwidth - 0.03\textwidth,
+    text width = 0.8\textwidth - 0.05\textwidth}}
+
+%% 25/75
+\tikzset{col25 left/.style={at = (current page.west),
+    xshift = {\beamer@leftmargin+0.125\textwidth},
+    minimum width = 0.25\textwidth - 0.03\textwidth,
+    text width = 0.25\textwidth - 0.05\textwidth}}
+\tikzset{col75 right/.style={at = (current page.east),
+    xshift = {-\beamer@leftmargin-0.375\textwidth},
+    minimum width = 0.75\textwidth - 0.03\textwidth,
+    text width = 0.75\textwidth - 0.05\textwidth}}
+\tikzset{col25 right/.style={at = (current page.east),
+    xshift = {-\beamer@leftmargin-0.125\textwidth},
+    minimum width = 0.25\textwidth - 0.03\textwidth,
+    text width = 0.25\textwidth - 0.05\textwidth}}
+\tikzset{col75 left/.style={at = (current page.west),
+    xshift = {\beamer@leftmargin+0.375\textwidth},
+    minimum width = 0.75\textwidth - 0.03\textwidth,
+    text width = 0.75\textwidth - 0.05\textwidth}}
+
+%% 50/50
+\tikzset{col50 left/.style={at = (current page.west), is-50,
+    xshift = {\beamer@leftmargin+0.25\textwidth}}}
+\tikzset{col50 right/.style={at = (current page.east), is-50,
+    xshift = {-\beamer@leftmargin-0.25\textwidth}}}
+\tikzset{col50 center/.style={at = (current page.center), is-50}}

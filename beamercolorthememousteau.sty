@@ -1,0 +1,70 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{beamercolorthememousteau}[2019-04-25 mousteau color theme]
+
+
+
+%%% Colors and Beamer theme %%%
+% https://designsystem.web.unimelb.edu.au/style-guide/colour-palette/
+\definecolor{cousteau@heritageblue}{RGB}{0,15,70} % traditional heritage blue
+\definecolor{cousteau@shipgrey}{RGB}{45,45,45}
+\definecolor{cousteau@magpie}{RGB}{241,241,241} % magpie 25%
+\definecolor{cousteau@blacksheoak}{RGB}{255,45,60} % blacksheoak
+\definecolor{cousteau@possum}{RGB}{235,123,190} % possum pink
+\definecolor{cousteau@laughingkookaburra}{RGB}{ 0,60,85} % laughing kookaburra
+
+
+
+
+%% alternative alert colors
+\newenvironment<>{alertenvb}{\begin{altenv}#1%
+    {\color{cousteau@blacksheoak}\usebeamerfont{alerted text}\usebeamertemplate{alerted text begin}}
+    {\usebeamertemplate{alerted text end}}{\color{.}}{}\ignorespaces}{\ifhmode\unskip\fi\end{altenv}}
+
+\newcommand<>{\alertb}[1]{\begin{alertenvb}#2\relax#1\end{alertenvb}}
+
+
+\newenvironment<>{alertenvc}{\begin{altenv}#1%
+    {\color{cousteau@possum}\usebeamerfont{alerted text}\usebeamertemplate{alerted text begin}}
+    {\usebeamertemplate{alerted text end}}{\color{.}}{}\ignorespaces}{\ifhmode\unskip\fi\end{altenv}}
+
+\newcommand<>{\alertc}[1]{\begin{alertenvc}#2\relax#1\end{alertenvc}}
+
+% \newcommand<>{\alertc}[1]{\setbeamercolor{alerted text}{fg=cousteau@possum}%
+%   \begin{alertenv}#2\relax#1\end{alertenv}%
+%   \setbeamercolor{alerted text}{fg=cousteau@heritageblue}%
+% }
+
+\setbeamercolor{normal text}{fg=cousteau@shipgrey, bg=cousteau@magpie}
+\setbeamercolor{alerted box text}{fg=cousteau@laughingkookaburra}
+\setbeamercolor{alerted text}{fg=cousteau@heritageblue}
+\setbeamercolor{example text}{fg=cousteau@possum}
+
+\setbeamercolor{title}{fg=cousteau@heritageblue}
+\setbeamercolor{author}{use=normal text, parent=normal text}
+\setbeamercolor{date}{use=normal text, parent=normal text}
+\setbeamercolor{institute}{use=normal text, parent=normal text}
+\setbeamercolor{structure}{use=normal text, fg=normal text.fg}
+
+\setbeamercolor{palette primary}{%
+  use=normal text,
+  fg=normal text.bg,
+  bg=cousteau@heritageblue
+}
+
+\setbeamercolor{frametitle}{%
+  use=palette primary,
+  parent=palette primary
+}
+
+
+\setbeamercolor{block title}{use=normal text, fg=normal text.fg,bg=normal text.bg!80!fg}
+\setbeamercolor{block body}{use={block title, normal text},bg=block title.bg!50!normal text.bg}
+\setbeamercolor{block title alerted}{use={block title, alerted box text}, fg=alerted text.fg, bg=block title.bg}
+\setbeamercolor{block title example}{use={block title, example text}, fg=example text.fg, bg=block title.bg}
+\setbeamercolor{block body example}{use=block body, parent=block body}
+\setbeamercolor{button}{bg=cousteau@heritageblue}
+\setbeamercolor{block body alerted}{use=block body, parent=block body}
+
+\setbeamercolor{section number}{fg=cousteau@heritageblue}
+\setbeamercolor{section title}{fg=cousteau@heritageblue}
+
