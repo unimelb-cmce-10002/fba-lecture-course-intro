@@ -1,7 +1,7 @@
 ---
 title: "Foundations of Business Analytics"
 subtitle: "Course Introduction"
-author: "Lachlan Deer & Patrick Ferguson"
+author: "Lachlan Deer, Patrick Ferguson & Junhao Liu"
 institute: "CMCE-10002, University of Melbourne"
 date: today
 date-format: long
@@ -20,21 +20,41 @@ format:
 * Explain how you will be assessed
 * XYZ
 
-# A Quick Intro to Business Analytics 
-
 ## What is Business Analytics?
 
-Content
+Business analytics is the use of data and analytical tools to support better decision-making. 
+
+* Combines statistical thinking, technological capability, and business insight. 
+
+* Help organizations answer the fundamental question that drives business strategy: 
+
+What should we do next?
+
+\textbf{Then what are the \alertc{Foundations}?}
 
 # Meet the Teaching Team
 
 ## Lecturers 
 
-Content
+\begin{tabular}{c c c}
+  \includegraphics[width=3cm,height=3cm]{figs/lachlan_3.png} &
+  \includegraphics[width=4cm,height=3cm]{figs/patrick.jpg} &
+  \includegraphics[width=3cm,height=3cm]{figs/junhao.png} \\
+  
+  \textbf{Lachlan} Deer &
+  \textbf{Patrick} Ferguson &
+  \textbf{Junhao} Liu \\
+\end{tabular}
 
 ## Tutor Team
 
-Content
+**Tutor in Charge**
+
+INSERT Tasneem
+
+**Tutors**
+
+INSERT OTHERS
 
 # Logistics
 
