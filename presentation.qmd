@@ -14,11 +14,12 @@ format:
 
 ## Learning Goals for this Class
 
-* Meet your Instructors
-* Describe the logistical structure of the course
-* List the topic coverage in this course
-* Explain how you will be assessed
-* XYZ
+-   Meet your Instructors
+-   Describe the logistical structure of the course
+-   List the topic coverage in this course
+-   Explain how you will be assessed
+-   Introduce, define, and describe business analytics
+-   Showcase business analytics in action through a case study
 
 ## What is Business Analytics?
 
@@ -30,11 +31,11 @@ format:
 
 How? By combining:
 
-1. Statistical thinking
-2. Technological capability, and 
-3. Business insight. 
+1.  Statistical thinking
+2.  Technological capability, and
+3.  Business insight.
 
-**Core mission**: Help organizations answer the fundamental question that drives business strategy: 
+**Core mission**: Help organizations answer the fundamental question that drives business strategy:
 
 \begin{center}
 \textbf{
@@ -43,31 +44,30 @@ How? By combining:
 }
 \end{center}
 
-{{< fa question >}} So what are the  \textbf{\alertc{Foundations}?}
+{{< fa question >}} So what are the \textbf{\alertc{Foundations}?}
 
 ## What are the Foundations of Business Analytics?
 
 **1. Thinking with data**
 
-* Understand variation, uncertainty, and patterns
-* Use statistical reasoning to support decisions
+-   Understand variation, uncertainty, and patterns
+-   Use statistical reasoning to support decisions
 
 **2. Technological capability**
 
-* Access, clean, and analyze data using modern tools
-* Work with data and code
+-   Access, clean, and analyze data using modern tools
+-   Work with data and code
 
 **3. Interpretation and communication**
 
-* Draw meaning from results in business context
-* Tell clear, persuasive stories to guide action
+-   Draw meaning from results in business context
+-   Tell clear, persuasive stories to guide action
 
 \vspace{0.75cm}
 
 > Master these foundations, and you won’t just work with data — you'll craft narratives from numbers, and shape smarter decisions.
 
-
-## Who You Will Learn From 
+## Who You Will Learn From
 
 \Large\textbf{\alert{Lecturers}}:
 
@@ -84,7 +84,7 @@ How? By combining:
    \\
 \end{tabular}
 
-## Who You Will Learn From 
+## Who You Will Learn From
 
 **Tutor in Charge**
 
@@ -96,7 +96,7 @@ INSERT OTHERS
 
 # Logistics & Admin Matters
 
-## Class Structure 
+## Class Structure
 
 ```{r, echo = FALSE, fig.align = "center", out.width="50%"}
 url <- "figs/inperson.png"
@@ -105,12 +105,12 @@ knitr::include_graphics(url)
 
 **In person & Hands-On**
 
-Types of classes: 
+Types of classes:
 
-1. Lectures 
-2. Workshops / Tutorials
+1.  Lectures
+2.  Workshops / Tutorials
 
-## Lectures 
+## Lectures
 
 ```{r, echo = FALSE, fig.align = "center", out.width="35%"}
 url <- "figs/lecture.png"
@@ -119,79 +119,78 @@ knitr::include_graphics(url)
 
 **Lecture Format:**
 
-* 2 x 40 mins lectures run back-to-back 
-* Led by mix of Lachlan, Patrick and Junhao
+-   2 x 40 mins lectures run back-to-back
+-   Led by mix of Lachlan, Patrick and Junhao
 
 **Goal of the lectures:**
 
-* Introduce new material 
-* Hands-on coding exercises
-* Designed around solving a business problem
+-   Introduce new material
+-   Hands-on coding exercises
+-   Designed around solving a business problem
 
-## Lectures 
+## Lectures
 
 ```{r, echo = FALSE, fig.align = "center", out.width="35%"}
 url <- "figs/lecture.png"
 knitr::include_graphics(url)
 ```
 
-How to get the most out of lectures? 
+How to get the most out of lectures?
 
-* **Read** the assigned readings **before attending**
-* **Ask questions** during class 
-* **Interact with us** when we ask questions
-* **Take your own notes** where necessary
+-   **Read** the assigned readings **before attending**
+-   **Ask questions** during class
+-   **Interact with us** when we ask questions
+-   **Take your own notes** where necessary
 
-## Lectures 
+## Lectures
 
-The way we teach may be different than what you are used to 
+The way we teach may be different than what you are used to
 
-* **Hands-on** coding in lectures 
-* **Doing** rather than defining and/or theorizing
-* **Narrow(-ish) focus with depth** rather than "wide and shallow" surveys
+-   **Hands-on** coding in lectures
+-   **Doing** rather than defining and/or theorizing
+-   **Narrow(-ish) focus with depth** rather than "wide and shallow" surveys
 
 When we work on business problems:
 
-* Introduce broad background
-* State the business and/or policy problem 
-* Write code to develop an answer 
-* Interpret the results of our output
-* Draw managerial implications
+-   Introduce broad background
+-   State the business and/or policy problem
+-   Write code to develop an answer
+-   Interpret the results of our output
+-   Draw managerial implications
 
-## Workshops / Tutorials 
+## Workshops / Tutorials
 
 ```{r, echo = FALSE, fig.align = "center", out.width="25%"}
 url <- "https://content.presentermedia.com/files/clipart/00009000/9003/computer_lab_800_wht.jpg"
 knitr::include_graphics(url)
 ```
 
-**Workshop Format:** 
+**Workshop Format:**
 
-* 90-min Workshops
-* Starting Course Week 2
-* Led by a Tutor (which may be one of the lecturers!)
+-   90-min Workshops
+-   Starting Course Week 2
+-   Led by a Tutor (which may be one of the lecturers!)
 
 **Goals of the workshops:**
 
-- Review materials from lectures
-- Learn the techniques 
-- Ask questions / seek clarification
+-   Review materials from lectures
+-   Learn the techniques
+-   Ask questions / seek clarification
 
-
-## Workshops / Tutorials 
+## Workshops / Tutorials
 
 ```{r, echo = FALSE, fig.align = "center", out.width="35%"}
 url <- "figs/team-work.png"
 knitr::include_graphics(url)
 ```
 
-How to get the most value out of labs? 
+How to get the most value out of labs?
 
-* **Prepare before attending**
-* **Ask** questions in class
-* **Work together** with your peers 
+-   **Prepare before attending**
+-   **Ask** questions in class
+-   **Work together** with your peers
 
-## The Recordings Question 
+## The Recordings Question
 
 ```{r, echo = FALSE, fig.align = "center", out.width="50%"}
 url <- "figs/no-recording.png"
@@ -204,137 +203,133 @@ knitr::include_graphics(url)
 
 ## Where to Find Stuff
 
-Course **\alert{Canvas Page}** is your # 1 resource
- 
-* All course content posted or linked to in Canvas
-* **Use the \alert{Discussion Board}** to ask admin & content questions 
-    - Open until end of Week 12!
+Course \alert{Canvas Page} is your \# 1 resource
 
-**Lecturers & Head TA email** (if you must): cmce-10002@unimelb.edu.au
-  
-* *Not* our personal email addresses
-* Only when **topics cannot be posted** on the **Discussion Board**
+-   All course content posted or linked to in Canvas
+-   **Use the** \alert{Discussion Board} to ask admin & content questions
+    -   Open until end of Week 12!
+
+**Lecturers & Head TA email** (if you must): cmce-10002\@unimelb.edu.au
+
+-   *Not* our personal email addresses
+-   Only when **topics cannot be posted** on the **Discussion Board**
 
 **Tutor's email**: Your tutor will communicate their preferences in the first workshop
 
 **Office Hours:** Sign up using links on Canvas
-  
+
 ## Interactions with Peers and Instructors
 
 ```{r, echo = FALSE, fig.align = "center", out.width="80%"}
-url <- "https://www.nicepng.com/png/detail/204-2046406_obey-clipart-school-rule-school-rules-clipart.png"
+url <- "figs/school-rules.png"
 knitr::include_graphics(url)
 ```
 
-Two sets of rules for *all* interactions: 
+Two sets of rules for *all* interactions:
 
-* [**\alertb{Code of Conduct}**](https://policy.unimelb.edu.au/MPF1324/)
-* [**\alertb{Social Rules}**](TBA)
+-   [\alertb{Code of Conduct}](https://policy.unimelb.edu.au/MPF1324/)
+-   [\alertb{Social Rules}](TBA)
 
-## Textbooks and Readings 
+## Textbooks and Readings
 
 \textbf{\alert{Textbook}}:
 
-* [**R for Data Science**](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Cetinkaya-Rundel and Garret Grolemund
+-   [**R for Data Science**](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Cetinkaya-Rundel and Garret Grolemund
 
-\textbf{\alert{Lecture Notes}}:
+\textbf{\alert{Lecture Notes and Tutorial Exercises}}:
 
-* [**Foundations of Business Analytics: Crafting Narratives from Numbers**](https://unimelb-cmce-10002.github.io/fba-book/) by Lachlan Deer, Patrick Ferguson and Junhao Liu
+-   [**Foundations of Business Analytics: Crafting Narratives from Numbers**](https://unimelb-cmce-10002.github.io/fba-book/) by Lachlan Deer, Patrick Ferguson and Junhao Liu
 
 \textbf{\alert{Additional Readings}} (infrequently):
 
-* Posted on Canvas
+-   Posted on Canvas
 
 \textbf{When are \alertc{readings available?}}
 
-* Lectures: Monday the week of the class
-* Tutorials: Monday the week **before** the class
+-   Lectures: Monday the week of the class
+-   Tutorials: Monday the week **before** the class
 
 ## Coding, Maths and Stats
 
 This is an **analytics** class (it's even in the course name!)
 
 $\implies$ We will **develop an analytics toolkit**
- 
-* **Mainly \alert{'code based'}**, very occasionally we'll need some maths and stats
-* ... We've tried to minimise "math for the sake of it"
+
+-   **Mainly** \alert{'code based'}, very occasionally we'll need some maths and stats
+-   ... We've tried to minimise "math for the sake of it"
 
 **Coding background and interest** among students **is heterogeneous**
 
-* **\alert{Principle: Leave no-one behind}**
-    * Instructors are here to help catch you up and provide further guidance as needed
-    * $\implies$ work with us, even when it is hard
-    * Be willing to learn from each other, form study groups, etc
+-   \alert{Principle: Leave no-one behind}
+    -   Instructors are here to help catch you up and provide further guidance as needed
+    -   $\implies$ work with us, even when it is hard
+    -   Be willing to learn from each other, form study groups, etc
 
 ## Things to Keep in Mind
 
 This course is **new** this semester
 
-* There **will be bugs** ...
-* ... We'll work through them together
+-   There **will be bugs** ...
+-   ... We'll work through them together
 
 Mix of students at various levels, from various backgrounds
- 
-* Learn from other's unique perspectives
+
+-   Learn from other's unique perspectives
 
 We, the lecturers, (awkwardly) straddle the line between different business disciplines
 
-* We care about 'mechanisms' and explaining why things happen
-* We care about more than established business "theories"
-* We're not 'data scientists' or computer scientists
-* $\implies$ pragmatism towards analysis that asks and answers interesting questions
+-   We care about 'mechanisms' and explaining why things happen
+-   We care about more than established business "theories"
+-   We're not 'data scientists' or computer scientists
+-   $\implies$ pragmatism towards analysis that asks and answers interesting questions
 
-## Course Objectives 
+## Course Objectives
 
 On successful completion of this subject, students should be able to:
 
-1. \textbf{Explain frameworks and applications} of business analytics in problem solving and decision-making;
-2. Relate \textbf{ethical principles} to the collection, storage, and use of data by business and government organisations;
-3. \textbf{Demonstrate methods} to locate, prepare, and manage data to acquire, describe, visualise, and analyse data, as well as and \textbf{make predictions} and \textbf{draw inferences} for business decision-making;
-4. \textbf{Communicate the results} of a business analytics project \textbf{to a non-technical audience} of decision-makers and stakeholders; and
-5. \textbf{Critically evaluate} various ways in which data analysis and inferences are made using different types of analytics methods.
+1.  \textbf{Explain frameworks and applications} of business analytics in problem solving and decision-making;
+2.  Relate \textbf{ethical principles} to the collection, storage, and use of data by business and government organisations;
+3.  \textbf{Demonstrate methods} to locate, prepare, and manage data to acquire, describe, visualise, and analyse data, as well as and \textbf{make predictions} and \textbf{draw inferences} for business decision-making;
+4.  \textbf{Communicate the results} of a business analytics project \textbf{to a non-technical audience} of decision-makers and stakeholders; and
+5.  \textbf{Critically evaluate} various ways in which data analysis and inferences are made using different types of analytics methods.
 
-## What we will cover 
+## What we will cover
 
-:::: {.columns}
-
+::::: columns
 ::: {.column width="40%"}
 \textbf{\alert{Weeks 1 - 5}}:
 
 **1. Foundations**
 
-- What is Business Analytics? (Week 1)
-- The Core Skills of a Business Scientist (Week 2)
-- Reproducible Workflows (Week 2)
+-   What is Business Analytics? (Week 1)
+-   The Core Skills of a Business Scientist (Week 2)
+-   Reproducible Workflows (Week 2)
 
 **2. Extracting First Insights**
 
-- Data Visualization (Week 3)
-- Manipulating Data (Week 4)
-- Analyzing Data  (Week 5)
-
+-   Data Visualization (Week 3)
+-   Manipulating Data (Week 4)
+-   Shaping and Combining Data (Week 5)
 :::
 
 ::: {.column width="50%"}
-
 \textbf{\alert{Weeks 6 - 12}}:
 
 **3. Finding and Storing Data**
 
-- Storing & Using Data (Week 6)
-- Collecting Data (Week 7)
+-   Storing & Using Data (Week 6)
+-   Collecting Data (Week 7)
 
 **4. Extracting Deeper Insights**
 
-- Finding Variation in Data (Week 8)
-- Descriptive Analytics (Week 9)
-- Causal Analytics  (Week 10)
-- Predictive Analytics  (Week 11)
+-   Finding Variation in Data (Week 8)
+-   Descriptive Analytics (Week 9)
+-   Causal Analytics (Week 10)
+-   Predictive Analytics (Week 11)
 
 **5. Ethics and Privacy** (Week 12)
 :::
-
-::::
+:::::
 
 ## Building an Analytics Toolkit with R
 
@@ -343,48 +338,47 @@ url <- "figs/R.png"
 knitr::include_graphics(url)
 ```
 
-Why? 
+Why?
 
-* **Purpose built** statistical software
-* Wide variety of statistical and graphical techniques
-* Can do most things business analytics folks need to do
-* It's free and open source, and has a *friendly* user community
-* Extremely **useful** in the **job market** and/or **graduate study**
+-   **Purpose built** statistical software
+-   Wide variety of statistical and graphical techniques
+-   Can do most things business analytics folks need to do
+-   It's free and open source, and has a *friendly* user community
+-   Extremely **useful** in the **job market** and/or **graduate study**
 
 \textbf{We'll introduce you to our computing environment in \alert{Next Week's lecture}}
 
 ## Assessment Summary
 
-| Assessment                | Timing              | Weight |
-|---------------------------|---------------------|--------|
-| Weekly quizzes            | Throughout semester | 10%    |
-| Assignment 1              | Week 6              | 15%    |
-| Assignment 2              | Week 12             | 25%    |
-| Final exam (2 hours)      | Examination period  | 50%    |
+| Assessment           | Timing              | Weight |
+|----------------------|---------------------|--------|
+| Weekly quizzes       | Throughout semester | 10%    |
+| Assignment 1         | Week 6              | 15%    |
+| Assignment 2         | Week 12             | 25%    |
+| Final exam (2 hours) | Examination period  | 50%    |
 
 Remarks:
 
-* Weekly quizzes start in Week 3.
-* Assignments must be completed in **randomly assigned** groups.
-* **Hurdle Requirement**: To pass this subject, students must achieve at least 50% in the final exam.
-* See Syllabus & Canvas for further information.
+-   Weekly quizzes start in Week 3.
+-   Assignments must be completed in **randomly assigned** groups.
+-   **Hurdle Requirement**: To pass this subject, students must achieve at least 50% in the final exam.
+-   See Syllabus & Canvas for further information.
 
 ## GenAI and This Course
 
-| AI Use Case                               | Before Assignment 1 | After Assignment 1        |
-|-------------------------------------------|----------------------------|----------------------------------|
-| Writing or debugging code                 | Not allowed                | Allowed with documentation       |
-| Asking AI to explain concepts/code        | Allowed                    | Allowed                          |
-| Submitting AI-generated code you don’t understand | Not allowed          | Not allowed                      |
+| AI Use Case | Before Assignment 1 | After Assignment 1 |
+|-----------------------------|--------------------|-----------------------|
+| Writing or debugging code | Not allowed | Allowed with documentation |
+| Asking AI to explain concepts/code | Allowed | Allowed |
+| Submitting AI-generated code you don’t understand | Not allowed | Not allowed |
 
-**Our Philosophy: \alert{Learn First, Then Build on It}** 
+**Our Philosophy:** \alert{Learn First, Then Build on It}
 
-Early exposure to the building blocks of programming — syntax, logic, debugging — gives you a foundation to later harness AI as a tool for solving business
-analytics problems. 
+Early exposure to the building blocks of programming — syntax, logic, debugging — gives you a foundation to later harness AI as a tool for solving business analytics problems.
 
-* See Syllabus for more details
+-   See Syllabus for more details
 
-##
+## 
 
 ```{r, echo = FALSE, fig.align = "center", out.width="70%"}
 url <- "figs/qanda.jpeg"
@@ -398,7 +392,7 @@ url <- "figs/10mins.jpg"
 knitr::include_graphics(url)
 ```
 
-# What is Business Analytics?  
+# What is Business Analytics?
 
 ## What is Business Analytics? (redux)
 
@@ -406,12 +400,11 @@ knitr::include_graphics(url)
 
 \vspace{1cm}
 
-* **The story is** ultimately what business analytics is **trying to uncover**. 
-    * We help businesses listen to what the data is saying
-    * And translate that into actions.
-    * Examples: Customer needs, Competitive dynamics, Operational bottlenecks
-
-* **\alert{Our Aim}**: move beyond educated guesswork toward **informed action**
+-   **The story is** ultimately what business analytics is **trying to uncover**.
+    -   We help businesses listen to what the data is saying
+    -   And translate that into actions.
+    -   Examples: Customer needs, Competitive dynamics, Operational bottlenecks
+-   \alert{Our Aim}: move beyond educated guesswork toward **informed action**
 
 \begin{center}
 \textbf{How did we get here?}
@@ -426,8 +419,8 @@ knitr::include_graphics(url)
 
 **Stage 1: Gut Instinct** (The HIPPO Era)
 
-* The most senior person in the room often had the final say (**Hi**ghest **P**aid **P**erson's **O**pinion.)
-* Lacks transparency and difficult to learn from both successes and failures
+-   The most senior person in the room often had the final say (**Hi**ghest **P**aid **P**erson's **O**pinion.)
+-   Lacks transparency and difficult to learn from both successes and failures
 
 ## Evolution of Business Decision Making
 
@@ -438,9 +431,9 @@ knitr::include_graphics(url)
 
 **Stage 2: Simple Data Support**
 
-* Create basic reports and forecasts 
-* **\alert{Descriptive Analytics helped explain what had happened}**
-* Think monthly sales reports or annual budget reviews.
+-   Create basic reports and forecasts
+-   \alert{Descriptive Analytics helped explain what had happened}
+-   Think monthly sales reports or annual budget reviews.
 
 ## Evolution of Business Decision Making
 
@@ -451,11 +444,11 @@ knitr::include_graphics(url)
 
 **Stage 3: Advanced Analytics**
 
-* **\alert{Predictive models}** and machine learning to 
-    1. Forecast future outcomes; and 
-    2. Identify hidden patterns.
-* Gives **\alert{accurate predictions of the future}**
-* Doesn't answer strategic/ what if questions  well
+-   \alert{Predictive models} and machine learning to
+    1.  Forecast future outcomes; and
+    2.  Identify hidden patterns.
+-   Gives \alert{accurate predictions of the future}
+-   Doesn't answer strategic/ what if questions well
 
 ## Evolution of Business Decision Making
 
@@ -466,158 +459,152 @@ knitr::include_graphics(url)
 
 **Stage 4: Experimentation and Causal Learning**
 
-* **\alert{Learning what actually works}**
-* "What happens if we do X instead of Y?"
-* Modern business analytics is as much about learning and adapting as it is about measuring and predicting
+-   \alert{Comparing how decisions affect outcomes to learn what works best}
+-   "What happens if we do X instead of Y?"
+-   Modern business analytics is as much about learning and adapting as it is about measuring and predicting
 
-## The Business Analytics Process 
+## The Business Analytics Process
 
 \vspace{0.75cm}
 
 > “Data are widely available; what is scarce is the ability to extract wisdom from them.” — Hal Varian, Chief Economist at Google
 
-1. **Defining the Problem** — What decision needs to be made? What are the options? What does success look like?
+1.  **Defining the Problem** — What decision needs to be made? What are the options? What does success look like?
 
-2. **Collecting and Cleaning Data** — Gathering relevant data sources and ensuring they’re accurate, complete, and reliable.
+2.  **Collecting and Cleaning Data** — Gathering relevant data sources and ensuring they’re accurate, complete, and reliable.
 
-3. **Analyzing Data Appropriately** — Identify patterns, test hypotheses, and quantify trade-offs.
+3.  **Analyzing Data Appropriately** — Identify patterns, test hypotheses, and quantify trade-offs.
 
-4. **Communicating Insights** — Tell persuasive, relatable stories with data that clarify the decision at hand and guide action.
+4.  **Communicating Insights** — Tell persuasive, relatable stories with data that clarify the decision at hand and guide action.
 
-5. **Acting to Create Value** — The goal is not analysis for its own sake, but to generate insights that drive strategy, improve operations, or better serve customers.
+5.  **Acting to Create Value** — The goal is not analysis for its own sake, but to generate insights that drive strategy, improve operations, or better serve customers.
 
-## Three Types of Business Analytics 
+## Three Types of Business Analytics
 
 **Fundamental goal:** to make smarter, more confident choices in an uncertain world.
 
-* **\alert{Different business problems require}** different types of insight—and therefore, **\alert{different analytical tools}**.
+-   \alert{Different business problems require} different types of insight—and therefore, \alert{different analytical tools}.
 
 Broadly categorized into 3 types of business analytics
 
-1. Descriptive analytics
-2. Predictive Analytics
-3. Causal Analytics
+1.  Descriptive analytics
+2.  Predictive Analytics
+3.  Causal Analytics
 
 Let's discuss each in turn...
 
-## Descriptive Analytics 
+## Descriptive Analytics
 
-**\alert{Descriptive Analytics}:** **Summarizing** and reporting **what has already occurred** in a business. 
+\alert{Descriptive Analytics}: **Summarizing** and reporting **what has already occurred** in a business.
 
 Examples:
 
-* What were our total sales last quarter?
-* Which products had the highest return rates?
-* How many website visitors came from paid ads?
+-   What were our total sales last quarter?
+-   Which products had the highest return rates?
+-   What were the top 10 ASX-listed companies by shareholder return in 2024?
 
 Tools:
 
-* Summary statistics, tables, visualizations, and dashboards. 
-
-Role: 
-
-* Organize past data in a way that helps managers understand performance, spot trends, or identify anomalies.
-
-## Predictive Analytics 
-
-**\alert{Predictive analytics}: Uses past data to forecast future outcomes.** 
-
-Examples:
-
-* How many customers are likely to churn next month?
-* What sales should we expect in the holiday season?
-* Which leads are most likely to convert?
-
-Tools: 
-
-* Techniques that identify patterns and extrapolate them forward. 
-
-Role: 
-
-* Give decision-makers a probabilistic view of likely outcomes.
-
-## Causal Analytics 
-
-**\alert{Causal Analytics}: What would happen if we did X instead of Y?**
-
-Examples:
-
-* What impact will a 10% price increase have on demand?
-* Does showing product reviews increase conversion rates?
-* Would switching to a new supplier improve delivery times?
-
-Tools: 
-
-* Cleverly crafted comparisons to figure out what actually causes what.
+-   Summary statistics, tables, visualizations, and dashboards.
 
 Role:
 
-* The decision engine of analytics: it helps businesses not just anticipate the future, but change it deliberately.
+-   Organize past data in a way that helps managers understand performance, spot trends, or identify anomalies.
+
+## Predictive Analytics
+
+\alert{Predictive analytics}: Uses past data to forecast future outcomes.
+
+Examples:
+
+-   How many customers are likely to churn next month?
+-   How are annual depreciation expenses likely to change over the next three years?
+-   Will the RBA cut interest rates next month, and if so by how many basis points?
+
+Tools:
+
+-   Techniques that identify patterns and extrapolate them forward.
+
+Role:
+
+-   Give decision-makers a probabilistic view of likely outcomes.
+
+## Causal Analytics
+
+\alert{Causal Analytics}: What would happen if we did X instead of Y?
+
+Examples:
+
+-   What impact will a 10% price increase have on demand?
+-   How will a merger affect the takeover firm's share price?
+-   Would switching to a new supplier improve delivery times?
+
+Tools:
+
+-   Cleverly crafted comparisons to figure out what actually causes what.
+
+Role:
+
+-   The decision engine of analytics: it helps businesses not just anticipate the future, but change it deliberately.
 
 ## Summary
 
-| Type                  | Core Question               | Typical Tools                   | Business Use                |
-|-----------------------|-----------------------------|----------------------------------|-----------------------------|
-| Descriptive           | What happened?              | Summaries, visualizations        | Reporting and monitoring    |
-| Predictive            | What might happen?          | Forecasting, classification      | Anticipating future trends  |
-| Causal (Prescriptive) | What will happen if we act? | Experiments, causal inference    | Strategy and decision-making|
+| Type | Core Question | Typical Tools | Business Use |
+|-----------------|-----------------|--------------------|-----------------|
+| Descriptive | What happened? | Summaries, visualizations | Reporting and monitoring |
+| Predictive | What might happen? | Forecasting, classification | Anticipating future trends |
+| Causal (Prescriptive) | What will happen if we act? | Experiments, causal inference | Strategy and decision-making |
 
-## Exercise 
+## Exercise
 
 For each question below, identify whether it requires **Descriptive**, **Predictive**, or **Causal** analytics:
 
-1. "Which marketing channels generated the most leads last month?"
-   - Type: _______________
+1.  "Which marketing channels generated the most leads last month?"
+    -   Type: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+2.  "How will our share price change if we replace our CEO with our current COO?"
+    -   Type: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+3.  "Which customers are most likely to upgrade to our premium service?"
+    -   Type: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+4.  "Which of our product lines account for the largest share of corporate overhead expenses?"
+    -   Type: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+5.  "Would offering free shipping increase our conversion rate?"
+    -   Type: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+6.  "Will analysts issue a buy/hold/sell recommendation for our stock next week?"
+    -   Type: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-2. "How would our customer satisfaction change if we reduced response times by 50%?"
-   - Type: _______________
-
-3. "Which customers are most likely to upgrade to our premium service?"
-   - Type: _______________
-
-4. "What was our employee turnover rate in Q3?"
-   - Type: _______________
-
-5. "Would offering free shipping increase our conversion rate?"
-   - Type: _______________
-
-6. "How many support tickets should we expect next week?"
-   - Type: _______________
-   
 ## Good Decisions Need Good Data
 
-**Principle: \alert{Garbage in, garbage out}.**
+**Principle:** \alert{Garbage in, garbage out}.
 
-* **Analytics** doesn't make decisions, it **supports decision-making**.
+-   **Analytics** doesn't make decisions, it **supports decision-making**.
 
-The **quality** of that support **depends the inputs we provide.** 
+The **quality** of that support **depends on the inputs we provide.**
 
-* ... And the care with which we interpret the results.
+-   ... And the care with which we interpret the results.
 
-**\alert{Implication}**: How **data is collected, stored and managed influences** the **quality of analytics** that follows
+\alert{Implication}: How **data is collected, stored and managed influences** the **quality of analytics** that follows
 
-* We'll spend a couple of weeks understanding this space too
-
+-   We'll spend a couple of weeks understanding this space too
 
 ## Analytics Doesn't Eliminate Uncertainty
 
-**Principle: \alert{All models are simplifications.}.**
+**Principle:** \alert{All models are simplifications.}.
 
-* Models help us focus on what matters, but they also leave things out. 
+-   Models help us focus on what matters, but they also leave things out.
 
-**\alert{Implications}**: Even with data ...
+\alert{Implications}: Even with data ...
 
 **1. Uncertainty remains**. We make decisions under incomplete information or ambiguous results.
 
 **2. Trade-offs persist**. No model can fully resolve business tensions. These are managerial choices, not statistical ones.
 
-* Examples: short-term gains and long-term investments, or between efficiency and innovation 
+-   Examples: short-term gains and long-term investments, or between efficiency and innovation
 
 **3. Judgment is essential**. Good analysts don’t just perform analysis—they think critically, question results, and connect the data to the broader context.
 
 # A Taste of What is to Come
 
-##
+## 
 
 ```{r, echo = FALSE, fig.align = "center", out.width="80%"}
 url <- "https://mailmeteor.com/assets/img/meta/email-personalization.png"
@@ -633,28 +620,28 @@ knitr::include_graphics(url)
 
 ## Motivation
 
-**\alert{Business question}:** Does adding personalized content improve email effectiveness?
-  
+\alert{Business question}: Does adding personalized content improve email effectiveness?
+
 **Why study this?** Personalized content $\rightarrow$ noninformative content
 
-* **Prevailing wisdom** is that noninformative content **should not influence consumer behaviour**
-* Most businesses engage in this practice 
-* Email marketers have access to this information 
+-   **Prevailing wisdom** is that noninformative content **should not influence consumer behaviour**
+-   Most businesses engage in this practice
+-   Email marketers have access to this information
 
-{{< fa rocket >}}  How would you go about answering this question?
+{{< fa rocket >}} How would you go about answering this question?
 
 ## One way forward
 
 How we're going to answer this question:
 
-* Run an **experiment in the field**
-* **Varies personalization** & across contexts
+-   Run an **experiment in the field**
+-   **Varies personalization** & across contexts
 
-Discussion based on [**\alertc{Sahni, Wheeler and Chintagunta (2018)}**](https://pubsonline.informs.org/doi/10.1287/mksc.2017.1066)
+Discussion based on [\alertc{Sahni, Wheeler and Chintagunta (2018)}](https://pubsonline.informs.org/doi/10.1287/mksc.2017.1066)
 
 ## Field Experiments in One Slide
 
-**Core idea of experiments**: **\alert{Randomization into treatment}**
+**Core idea of experiments**: \alert{Randomization into treatment}
 
 ```{r, echo = FALSE, fig.align = "center", out.width="45%"}
 url <- "figs/random_allocation.png"
@@ -663,13 +650,13 @@ knitr::include_graphics(url)
 
 PLUS the **measurement of outcome variable(s)**
 
-* Which have been (carefully) selected
+-   Which have been (carefully) selected
 
 **Comparison of average behaviour** between treatments **delivers causal effects**
 
-* Subject to some assumptions 
+-   Subject to some assumptions
 
-**\alertc{ What about the "Field"}**? Run in **"real world" environments**, rather than computer labs
+\alertc{ What about the "Field"}? Run in **"real world" environments**, rather than computer labs
 
 ## Outcome Variable Selection
 
@@ -683,19 +670,19 @@ PLUS the **measurement of outcome variable(s)**
 
 Email Marketers have access to:
 
-* Opens
-* Leads
-* Unsubscribes 
-* Number of emails sent
+-   Opens
+-   Leads
+-   Unsubscribes
+-   Number of emails sent
 
 And can construct ratios using these...
 
-* Opens / Sent
-* Leads / Opens
+-   Opens / Sent
+-   Leads / Opens
 
 and so on ...
 
-## The Experiments 
+## The Experiments
 
 ```{r, echo = FALSE, fig.align = "center", out.width="80%"}
 url <- "figs/swc_experiments.png"
@@ -704,7 +691,7 @@ knitr::include_graphics(url)
 
 **Today's Focus**: Experiments 1 and 4.
 
-## Experiment 1: Context 
+## Experiment 1: Context
 
 ```{r, echo = FALSE, fig.align = "center", out.width="60%"}
 url <- "figs/experiment_1_email.png"
@@ -717,11 +704,11 @@ $\implies$ \textbf{Focus: acquiring new customers}
 
 ## Experiment 1: Design
 
-**Control Group**: Typical email, no name added to subject line 
+**Control Group**: Typical email, no name added to subject line
 
 Eg: "Learn Financial Modeling from Industry Experts"
 
-**Treatment Group**: Names explicitly added to email's subject line 
+**Treatment Group**: Names explicitly added to email's subject line
 
 Eg: "Jack, Learn Financial Modeling from Industry Experts"
 
@@ -738,9 +725,9 @@ knitr::include_graphics(url)
 
 **Lurking question**: Why did we observe this difference?
 
-* Academic wisdom suggests we shouldn't have seen differences
-* We **want to know why** a difference occurs
-* The "why" is known as **\alert{"the mechanism"}**
+-   Academic wisdom suggests we shouldn't have seen differences
+-   We **want to know why** a difference occurs
+-   The "why" is known as \alert{"the mechanism"}
 
 Write down mechanisms you think could be driving the results.
 
@@ -748,9 +735,9 @@ Write down mechanisms you think could be driving the results.
 
 The authors propose 3 mechanisms could be driving their results:
 
-* [**A**] Drawing **a**ttention to the email 
-* [**O**] Shape **o**pinions of reciever / positive cue
-* [**E**] Increased **e**laboration via recipient processing
+-   \[**A**\] Drawing **a**ttention to the email
+-   \[**O**\] Shape **o**pinions of reciever / positive cue
+-   \[**E**\] Increased **e**laboration via recipient processing
 
 **Question 1**: Are these **really** the only possible mechanisms?
 
@@ -758,26 +745,24 @@ The authors propose 3 mechanisms could be driving their results:
 
 ## Mechanisms Predict Different Outcomes
 
-Different mechanisms $\rightarrow$ different patterns in outcome variables 
+Different mechanisms $\rightarrow$ different patterns in outcome variables
 
-* Increased **opens** of personalized emails 
-  * Consistent with A, O, E
-
-* **Unsubscriptions** 
-  * Increase under A, decrease under O and E
-
-* **Leads**
-  * increase under E and O ...
-  * ... more evidence for E if even more leads when a discount mentioned
+-   Increased **opens** of personalized emails
+    -   Consistent with A, O, E
+-   **Unsubscriptions**
+    -   Increase under A, decrease under O and E
+-   **Leads**
+    -   increase under E and O ...
+    -   ... more evidence for E if even more leads when a discount mentioned
 
 ## Experiment 4: Mechanisms
 
-Identify whether mechanism related to: 
+Identify whether mechanism related to:
 
-* **"Increasing elaboration"**
-  * Noninformative content increases message processing 
-* **"Serving as a positive cue"** 
-  * Noninformative content increases the recipients liking of the advertiser.
+-   **"Increasing elaboration"**
+    -   Noninformative content increases message processing
+-   **"Serving as a positive cue"**
+    -   Noninformative content increases the recipients liking of the advertiser.
 
 ## Experiment 4: Design
 
@@ -788,7 +773,7 @@ knitr::include_graphics(url)
 
 **Doesn't mention discount size** due to worries of being spam filtered
 
-## Experiment 4: Context 
+## Experiment 4: Context
 
 ```{r, echo = FALSE, fig.align = "center", out.width="100%"}
 url <- "figs/experiment_4_email.png"
@@ -811,9 +796,8 @@ knitr::include_graphics(url)
 
 **Statistical Tests**:
 
-* Don't worry about the details per se (today!)
-* We are looking for values in the table < 0.05 to indicate a significant difference in average behaviour between emails
-
+-   Don't worry about the details per se (today!)
+-   We are looking for values in the table \< 0.05 to indicate a significant difference in average behaviour between emails
 
 ## Experiment 4: Results
 
@@ -826,11 +810,10 @@ knitr::include_graphics(url)
 
 **Statistical Tests**:
 
-* **A vs B**: adding name alone has no significant effect
-* **B vs D**: adding name in presence of discount increases leads
+-   **A vs B**: adding name alone has no significant effect
+-   **B vs D**: adding name in presence of discount increases leads
 
-$\implies$ name increases engagement 
-$\implies$ via elaboration mechanism
+$\implies$ name increases engagement $\implies$ via elaboration mechanism
 
 ## Is it THAT easy? ... Likely Not
 
@@ -844,7 +827,7 @@ url <- "figs/marketing_letters_abstract.png"
 knitr::include_graphics(url)
 ```
 
-Paper: [**\alertc{Defau \& Zauner (2023)}**](https://link.springer.com/article/10.1007/s11002-023-09701-7)
+Paper: [\alertc{Defau \& Zauner (2023)}](https://link.springer.com/article/10.1007/s11002-023-09701-7)
 
 ## Is it THAT easy? ... Likely Not
 
@@ -852,34 +835,31 @@ Paper: [**\alertc{Defau \& Zauner (2023)}**](https://link.springer.com/article/1
 Marketers re-'discovered' \textbf{\alert{The Novelty Effect}}
 \end{center}
 
-"...But in the last years, this **\alertc{marketing trick has become a common practice}** in email marketing, and therefore, it might be that the behavior of recipients changed as they got used to it... **\alertb{we find no indication}** that using the **first name of the recipient** in the subject line **has a positive effect** on opening rates orclick-through rates"
+"...But in the last years, this \alertc{marketing trick has become a common practice} in email marketing, and therefore, it might be that the behavior of recipients changed as they got used to it... \alertb{we find no indication} that using the **first name of the recipient** in the subject line **has a positive effect** on opening rates orclick-through rates"
 
 BUT
 
 "... we do find that **using the surname of the recipient has a positive effect on opening rates and click-through rates**; an indication that similar marketing techniques still have potential, but that they need to be more creative and surprising"
 
+# Wrapping Up
 
-# Wrapping Up 
-
-## Data Uses Raises Ethics Issues 
-
+## Data Use Raises Ethics Issues
 
 Decision about what data to collect, how to analyze it, and how to act on it involves ethical considerations.
 
 Three core ethical concerns
- 
+
 **1. Avoid bias**: Analysis can reflect—and even amplify—existing biases in the data.
 
 **2. Protect privacy**. Complying with legal requirements (like the GDPR or Australia's Privacy Act), but also going beyond compliance to ask: *Are we using this data in ways that our stakeholders would consider reasonable and respectful?*
 
-**3. Promote fairness.**
-Decisions driven by analytics can have real consequences. Ethical analytics means being transparent about how decisions are made and striving to ensure that outcomes are just and inclusive.
+**3. Promote fairness.** Decisions driven by analytics can have real consequences. Ethical analytics means being transparent about how decisions are made and striving to ensure that outcomes are just and inclusive.
 
 \begin{center}
 \textbf{Ethical considerations are \alertc{not} optional}
 \end{center}
 
-## How to Approach this Course 
+## How to Approach this Course
 
 Becoming a business analyst means **developing a wide-ranging skillset** — one that draws on data, code, storytelling, and judgment.
 
@@ -887,63 +867,62 @@ Becoming a business analyst means **developing a wide-ranging skillset** — one
 
 But there may be moments where it feels overwhelming, hard, too technical or unclear. We aim to tackle those together.
 
-## What if I don't know everything yet? 
+## What if I don't know everything yet?
 
 \begin{center}
 \textbf{\alert{You're not expected to know everything now.}}
 \end{center}
 
-**Analytics is a skill you build through doing** — not memorizing. 
+**Analytics is a skill you build through doing** — not memorizing.
 
 $\implies$ Come to class with a **growth mindset**.
 
-* It's okay to be unsure, to try something that doesn't work, to ask a question that feels basic. That’s how you learn. We've all been there.
+-   It's okay to be unsure, to try something that doesn't work, to ask a question that feels basic. That’s how you learn. We've all been there.
 
 What we ask of you:
 
-* Be curious
-* Be open to feedback
-* Be willing to try, fail, and improve
-* Ask questions—lots of them
-* And support each other as we learn
+-   Be curious
+-   Be open to feedback
+-   Be willing to try, fail, and improve
+-   Ask questions—lots of them
+-   And support each other as we learn
 
-## Wrap Up 
+## Wrap Up
 
 \textbf{\alert{Today we}}:
 
-* **Defined what business analytics** is in the context of this course
-* **Met the teaching team**
-* **Discussed the main administrative matters** from the Course Syllabus
-* **Explained different types of analysis** typical in business analytics
-* **Explored** an example analytics problem: **Email personalization**
+-   **Defined what business analytics** is in the context of this course
+-   **Met the teaching team**
+-   **Discussed the main administrative matters** from the Course Syllabus
+-   **Explained different types of analysis** typical in business analytics
+-   **Explored** an example analytics problem: **Email personalization**
 
-\textbf{\alertc{Next week's tutorial}}: 
+\textbf{\alertc{Next week's tutorial}}:
 
-* **Prepare answers** to Tutorial 1 before coming to class.
+-   **Prepare answers** to Tutorial 1 before coming to class.
 
-\textbf{\alertc{Next week's lecture}}: 
+\textbf{\alertc{Next week's lecture}}:
 
-1. **What are the core skills** of a business analyst / scientist?
-2. How to **work with** the course's **computing environment**.
+1.  **What are the core skills** of a business analyst / scientist?
+2.  How to **work with** the course's **computing environment**.
 
 ## References
 
 Research Papers:
 
-* Defau, L., Zauner, A. (2023) Personalized subject lines in email marketing. Marketing Letters 34, 727–733. https://doi.org/10.1007/s11002-023-09701-7
+-   Defau, L., Zauner, A. (2023) Personalized subject lines in email marketing. Marketing Letters 34, 727–733. https://doi.org/10.1007/s11002-023-09701-7
 
-* Sahni, N.S., Wheeler, C.S., Chintagunta, P.K., (2018) Personalization in Email Marketing: The Role of Noninformative Advertising Content. Marketing Science 37(2):236-258.
-https://doi.org/10.1287/mksc.2017.1066
+-   Sahni, N.S., Wheeler, C.S., Chintagunta, P.K., (2018) Personalization in Email Marketing: The Role of Noninformative Advertising Content. Marketing Science 37(2):236-258. https://doi.org/10.1287/mksc.2017.1066
 
 Discussion of the papers above is adapted from:
 
-* Deer, L., (2024) Digital and Social Media Strategies., https://github.com/deer-marketing-lab/dsms-lecture-course-introduction
+-   Deer, L., (2024) Digital and Social Media Strategies., https://github.com/deer-marketing-lab/dsms-lecture-course-introduction
 
 ## Citation
 
 Suggested Citation:
 
-```markdown
+``` markdown
 @misc{fba2025_l01_intro,
       title={"Foundations of Business Analytics:
                 Course Introduction"},
@@ -952,8 +931,12 @@ Suggested Citation:
 }
 ```
 
-This course adheres to the principles of [\alertb{Open Educational Resources}](https://library.unimelb.edu.au/open-scholarship/what-are-oers). 
-This initiative advocates for transparency and accessibility in teaching to all levels of society and thus creating more accountability and impact.
+This course adheres to the principles of [\alertb{Open Educational Resources}](https://library.unimelb.edu.au/open-scholarship/what-are-oers). This initiative advocates for transparency and accessibility in teaching to all levels of society and thus creating more accountability and impact.
 
-<p style="text-align:center;"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Logo" width = "100"></p>
+<p style="text-align:center;">
+
+<img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Logo" width="100"/>
+
+</p>
+
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
