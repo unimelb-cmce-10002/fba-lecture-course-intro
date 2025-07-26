@@ -19,7 +19,7 @@ format:
 -   List the topic coverage in this course
 -   Explain how you will be assessed
 -   Introduce, define, and describe business analytics
--   Showcase business analytics in action through a case study
+-   Analyze and explain business analytics is applied in a real-world business case study.
 
 ## What is Business Analytics?
 
