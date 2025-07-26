@@ -18,7 +18,7 @@ format:
 -   Describe the logistical structure of the course
 -   List the topic coverage in this course
 -   Explain how you will be assessed
--   Introduce, define, and describe business analytics
+-   Define, and describe the three different kinds of business analytics
 -   Analyze and explain business analytics is applied in a real-world business case study.
 
 ## What is Business Analytics?
