@@ -86,13 +86,34 @@ How? By combining:
 
 ## Who You Will Learn From
 
-**Tutor in Charge**
+\Large\textbf{\alert{Tutor-in-Charge}}:
 
-INSERT Tasneem
+\begin{table}[h!]
+\begin{tabular}{c}
+  \includegraphics[width=2.5cm,height=3.25cm]{figs/Tasneem_Mohammed.jpg} \\
+  
+  \textbf{Tasneem} Mohammed \\
+\end{tabular}
+\end{table}
 
-**Tutors**
+\Large\textbf{\alert{Tutors}}:
 
-INSERT OTHERS
+::::: columns
+::: {.column width="50%"}
+
+* **Adil**  Bilil
+* **Karlo** Doroc
+
+:::
+
+::: {.column width="50%"}
+
+* **Changfa** Fu
+* **Nabeel** Maqsood
+
+:::
+:::::
+
 
 # Logistics & Admin Matters
 
@@ -228,11 +249,11 @@ knitr::include_graphics(url)
 Two sets of rules for *all* interactions:
 
 -   [\alertb{Code of Conduct}](https://policy.unimelb.edu.au/MPF1324/)
--   [\alertb{Social Rules}](TBA)
+-   [\alertb{Social Rules}](https://canvas.lms.unimelb.edu.au/courses/225162/modules/items/6854799)
 
 ## Textbooks and Readings
 
-\textbf{\alert{Textbook}}:
+\textbf{Online \alert{Textbook}}:
 
 -   [**R for Data Science**](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Cetinkaya-Rundel and Garret Grolemund
 
@@ -372,7 +393,7 @@ Remarks:
 | Asking AI to explain concepts/code | Allowed | Allowed |
 | Submitting AI-generated code you don’t understand | Not allowed | Not allowed |
 
-**Our Philosophy:** \alert{Learn First, Then Build on It}
+**Our Philosophy:** **\alert{Learn First, Then Build on It}**
 
 Early exposure to the building blocks of programming — syntax, logic, debugging — gives you a foundation to later harness AI as a tool for solving business analytics problems.
 
@@ -380,10 +401,12 @@ Early exposure to the building blocks of programming — syntax, logic, debuggin
 
 ## 
 
-```{r, echo = FALSE, fig.align = "center", out.width="70%"}
+```{r, echo = FALSE, fig.align = "center", out.height="70%"}
 url <- "figs/qanda.jpeg"
 knitr::include_graphics(url)
 ```
+
+Ask them [**\alert{here}**](https://pollev.com/lachlandeer188)
 
 ## 
 
@@ -404,7 +427,7 @@ knitr::include_graphics(url)
     -   We help businesses listen to what the data is saying
     -   And translate that into actions.
     -   Examples: Customer needs, Competitive dynamics, Operational bottlenecks
--   \alert{Our Aim}: move beyond educated guesswork toward **informed action**
+-   **\alert{Our Aim}**: move beyond educated guesswork toward **informed action**
 
 \begin{center}
 \textbf{How did we get here?}
@@ -483,7 +506,7 @@ knitr::include_graphics(url)
 
 **Fundamental goal:** to make smarter, more confident choices in an uncertain world.
 
--   \alert{Different business problems require} different types of insight—and therefore, \alert{different analytical tools}.
+-   **\alert{Different business problems require}** different types of insight—and therefore, **\alert{different analytical tools}**.
 
 Broadly categorized into 3 types of business analytics
 
@@ -495,55 +518,55 @@ Let's discuss each in turn...
 
 ## Descriptive Analytics
 
-\alert{Descriptive Analytics}: **Summarizing** and reporting **what has already occurred** in a business.
+**\alert{Descriptive Analytics}**: **Summarizing** and reporting **what has already occurred** in a business.
 
-Examples:
+**Examples**:
 
 -   What were our total sales last quarter?
 -   Which products had the highest return rates?
 -   What were the top 10 ASX-listed companies by shareholder return in 2024?
 
-Tools:
+**Tools**:
 
 -   Summary statistics, tables, visualizations, and dashboards.
 
-Role:
+**Role**:
 
 -   Organize past data in a way that helps managers understand performance, spot trends, or identify anomalies.
 
 ## Predictive Analytics
 
-\alert{Predictive analytics}: Uses past data to forecast future outcomes.
+**\alert{Predictive analytics}**: Uses past data to **forecast future outcomes**.
 
-Examples:
+**Examples**:
 
 -   How many customers are likely to churn next month?
 -   How are annual depreciation expenses likely to change over the next three years?
 -   Will the RBA cut interest rates next month, and if so by how many basis points?
 
-Tools:
+**Tools**:
 
 -   Techniques that identify patterns and extrapolate them forward.
 
-Role:
+**Role**:
 
 -   Give decision-makers a probabilistic view of likely outcomes.
 
 ## Causal Analytics
 
-\alert{Causal Analytics}: What would happen if we did X instead of Y?
+**\alert{Causal Analytics}**: What would **happen** if we **did X instead of Y**?
 
-Examples:
+**Examples**:
 
 -   What impact will a 10% price increase have on demand?
 -   How will a merger affect the takeover firm's share price?
 -   Would switching to a new supplier improve delivery times?
 
-Tools:
+**Tools**:
 
 -   Cleverly crafted comparisons to figure out what actually causes what.
 
-Role:
+**Role**:
 
 -   The decision engine of analytics: it helps businesses not just anticipate the future, but change it deliberately.
 
@@ -668,14 +691,14 @@ PLUS the **measurement of outcome variable(s)**
 
 ## What Outcomes Could We Measure?
 
-Email Marketers have access to:
+Email Marketers **have access to**:
 
 -   Opens
 -   Leads
 -   Unsubscribes
 -   Number of emails sent
 
-And can construct ratios using these...
+And **can construct ratios** using these...
 
 -   Opens / Sent
 -   Leads / Opens
@@ -729,7 +752,7 @@ knitr::include_graphics(url)
 -   We **want to know why** a difference occurs
 -   The "why" is known as \alert{"the mechanism"}
 
-Write down mechanisms you think could be driving the results.
+**\alert{Exercise}**: Write down mechanisms you think could be driving the results.
 
 ## Potential Mechanisms In the Email Context
 
