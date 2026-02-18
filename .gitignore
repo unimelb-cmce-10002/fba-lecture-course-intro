@@ -5,3 +5,4 @@
 .Rhistory
 out/*
 *cache*
+**/*.quarto_ipynb

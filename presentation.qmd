@@ -1,7 +1,8 @@
 ---
 title: "Foundations of Business Analytics"
 subtitle: "Course Introduction"
-author: "Lachlan Deer, Patrick Ferguson & Junhao Liu"
+# author: "Lachlan Deer, Patrick Ferguson & Junhao Liu"
+author: "Lachlan Deer & Patrick Ferguson"
 institute: "CMCE-10002, University of Melbourne"
 date: today
 date-format: long
@@ -19,7 +20,7 @@ format:
 -   List the topic coverage in this course
 -   Explain how you will be assessed
 -   Introduce, define, and describe business analytics
--   Analyze and explain business analytics is applied in a real-world business case study.
+-   Analyze and explain how business analytics is applied in a real-world business case study.
 
 ## What is Business Analytics?
 
@@ -946,11 +947,11 @@ Discussion of the papers above is adapted from:
 Suggested Citation:
 
 ``` markdown
-@misc{fba2025_l01_intro,
+@misc{fba2026_l01_intro,
       title={"Foundations of Business Analytics:
                 Course Introduction"},
       author={Lachlan Deer, Patrick Ferguson and Junhao Liu},
-      year={2025}
+      year={2026}
 }
 ```
 
