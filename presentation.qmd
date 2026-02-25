@@ -68,52 +68,84 @@ How? By combining:
 
 > Master these foundations, and you won’t just work with data — you'll craft narratives from numbers, and shape smarter decisions.
 
+# Meet the Teaching Team
+
 ## Who You Will Learn From
 
-\Large\textbf{\alert{Lecturers}}:
-
+<!-- \Large\textbf{\alert{Lecturers}}: -->
+\begin{table}[h!]
+\centering
 \begin{tabular}{c c c}
   \includegraphics[width=3cm,height=3cm]{figs/lachlan_3.png} &
-  \includegraphics[width=4cm,height=3cm]{figs/patrick.jpg} &
-  \includegraphics[width=3cm,height=3cm]{figs/junhao.png} \\
+  \includegraphics[width=4cm,height=3cm]{figs/patrick.jpg} 
+  \\
+  %\includegraphics[width=3cm,height=3.2cm]{figs/junhao.png} \\
   
   \textbf{Lachlan} Deer &
-  \textbf{Patrick} Ferguson &
-  \textbf{Junhao} Liu \\
+  \textbf{Patrick} Ferguson
+  \\
+   Instructor
    &
-   (Subject Coordinator) & 
+   Instructor
+   \\
+   Weeks 1 - 7 &
+   Weeks 8 - 12 
+   \\
+   & 
+   \textbf{Subject Coordinator}
    \\
 \end{tabular}
+\end{table}
+
 
 ## Who You Will Learn From
 
-\Large\textbf{\alert{Tutor-in-Charge}}:
-
 \begin{table}[h!]
-\begin{tabular}{c}
-  \includegraphics[width=2.5cm,height=3.25cm]{figs/Tasneem_Mohammed.jpg} \\
-  
-  \textbf{Tasneem} Mohammed \\
+\centering
+\begin{tabular}{c c}
+  \includegraphics[height=3cm,width=2.5cm,keepaspectratio]{figs/Tasneem_Mohammed.jpg} 
+  &
+  \includegraphics[width=3cm,height=3.2cm, keepaspectratio]{figs/karlo.png} 
+  \\
+  \textbf{Tasneem} Mohammed & 
+  \textbf{Karlo} Doroc \\
+  Tutor-in-Charge
+   & 
+   Tutor-in-Charge
+   \\
 \end{tabular}
 \end{table}
+
+## Who You Will Learn From
 
 \Large\textbf{\alert{Tutors}}:
 
 ::::: columns
 ::: {.column width="50%"}
 
-* **Adil**  Bilil
-* **Karlo** Doroc
+* Michelle (Min Shiuang) Lee
+* Angela (Ruoqi) Guan
+* Shaun (Sennan) Cai
+* Wen Zhou
+* Ziyan Xu
 
 :::
 
 ::: {.column width="50%"}
 
-* **Changfa** Fu
-* **Nabeel** Maqsood
+* Rei Rogu
+* Xiang Li
+* Jeanette (Xinyue) Wang
+* Chloe (Peichun) Shih
+* Amir Hassanzadegan
 
 :::
 :::::
+
+\vspace{0.35cm}
+
+Across **40** workshops running per week
+
 
 
 # Logistics & Admin Matters
@@ -142,13 +174,13 @@ knitr::include_graphics(url)
 **Lecture Format:**
 
 -   2 x 40 mins lectures run back-to-back
--   Led by mix of Lachlan, Patrick and Junhao
+-   Led by mix of Lachlan and Pat
 
 **Goal of the lectures:**
 
--   Introduce new material
--   Hands-on coding exercises
--   Designed around solving a business problem
+-   Introduce **new material**
+-   **\alert{Hands-on coding}** exercises
+-   Designed around **solving a business problem**
 
 ## Lectures
 
@@ -176,7 +208,7 @@ When we work on business problems:
 
 -   Introduce broad background
 -   State the business and/or policy problem
--   Write code to develop an answer
+-   **Write code to develop an answer**
 -   Interpret the results of our output
 -   Draw managerial implications
 
@@ -193,52 +225,83 @@ knitr::include_graphics(url)
 -   Starting Course Week 2
 -   Led by a Tutor (which may be one of the lecturers!)
 
-**Goals of the workshops:**
-
--   Review materials from lectures
--   Learn the techniques
--   Ask questions / seek clarification
-
-## Workshops / Tutorials
+## Workshop Setup
 
 ```{r, echo = FALSE, fig.align = "center", out.width="35%"}
 url <- "figs/team-work.png"
 knitr::include_graphics(url)
 ```
 
-How to get the most value out of labs?
+* Workshops are **hands-on**, coding-focused sessions designed to turn lecture ideas into practical skills.
+
+* Students **work in small groups** on structured questions, 
+
+* Tutors circulate to check progress, troubleshoot, and help clarify concepts.
+
+* Groups will regularly report back to the wider class to 
+  * Compare approaches, 
+  * Learn from common mistakes, and 
+  * Practise communicating results clearly.
+
+## Getting Value From Workshops
+
+```{r, echo = FALSE, fig.align = "center", out.width="35%"}
+url <- "figs/team-work.png"
+knitr::include_graphics(url)
+```
+
+How to get the most value out of workshops?
 
 -   **Prepare before attending**
 -   **Ask** questions in class
 -   **Work together** with your peers
 
+## Public Holidays
+
+**Two** Public Holidays impact our workshop schedule
+
+1. **\alert{Week 2 tutorials}** - that is NEXT WEEK
+  * **\alert{MONDAY} classes** are **being rescheduled**
+
+2. **\alert{Week 5 tutorials}**
+  * **\alert{FRIDAY classes}** are **being rescheduled**
+
+**Your Tutor** will run a **rescheduled class**
+
+* **\alert{Attend one of your tutor's sessions}**
+* If you really cannot make it, attend another tutor's session.
+* Details are in Canvas!
+* We'll post an announcement on Canvas to remind you
+
 ## The Recordings Question
 
-```{r, echo = FALSE, fig.align = "center", out.width="50%"}
-url <- "figs/no-recording.png"
-knitr::include_graphics(url)
-```
+**Lectures:**
 
-\begin{center}
-    \textbf{There are no recordings of lectures or computer labs}
-\end{center}
+* Recordings posted **after** classes run
+* Recordings are a backup, not a substitute for attending live
+* There are **\alertc{no livestreams}**
+
+**Workshops:** 
+
+* There are **\alertc{no recordings}**
 
 ## Where to Find Stuff
 
-Course \alert{Canvas Page} is your \# 1 resource
+The **\alert{Canvas Page}** is your \# 1 resource
 
 -   All course content posted or linked to in Canvas
--   **Use the** \alert{Discussion Board} to ask admin & content questions
-    -   Open until end of Week 12!
+-   **Use the \alert{Discussion Board}** to ask admin & content questions
 
-**Lecturers & Head TA email** (if you must): cmce-10002\@unimelb.edu.au
+**\alert{Lecturers \& Head TA email}** (if you must): cmce-10002\@unimelb.edu.au
 
 -   *Not* our personal email addresses
 -   Only when **topics cannot be posted** on the **Discussion Board**
 
 **Tutor's email**: Your tutor will communicate their preferences in the first workshop
 
-**Office Hours:** Sign up using links on Canvas
+**Office Hours:** Come and talk to us! ... **\alert{Yes! Really!}** 
+
+* Sign up using links on Canvas
 
 ## Interactions with Peers and Instructors
 
@@ -249,8 +312,8 @@ knitr::include_graphics(url)
 
 Two sets of rules for *all* interactions:
 
--   [\alertb{Code of Conduct}](https://policy.unimelb.edu.au/MPF1324/)
--   [\alertb{Social Rules}](https://canvas.lms.unimelb.edu.au/courses/225162/modules/items/6854799)
+-   [**\alertb{Code of Conduct}**](https://policy.unimelb.edu.au/MPF1324/)
+-   [**\alertb{Social Rules}**](https://canvas.lms.unimelb.edu.au/courses/225162/modules/items/6854799)
 
 ## Textbooks and Readings
 
@@ -266,44 +329,43 @@ Two sets of rules for *all* interactions:
 
 -   Posted on Canvas
 
-\textbf{When are \alertc{readings available?}}
+\textbf{When are \alertc{readings and workshop questions available?}}
 
--   Lectures: Monday the week of the class
--   Tutorials: Monday the week **before** the class
+- Monday the **week before** the class
 
 ## Coding, Maths and Stats
 
 This is an **analytics** class (it's even in the course name!)
 
-$\implies$ We will **develop an analytics toolkit**
+$\implies$ We will **\alert{develop an analytics toolkit}**
 
--   **Mainly** \alert{'code based'}, very occasionally we'll need some maths and stats
+-   **Mainly \alert{'code based'}**, very occasionally we'll need some maths and stats
 -   ... We've tried to minimise "math for the sake of it"
 
 **Coding background and interest** among students **is heterogeneous**
 
--   \alert{Principle: Leave no-one behind}
+-   **\alert{Principle: Leave no-one behind}**
     -   Instructors are here to help catch you up and provide further guidance as needed
     -   $\implies$ work with us, even when it is hard
     -   Be willing to learn from each other, form study groups, etc
+    -   If you're finding this easy, be patient as we work with others who aren't
 
 ## Things to Keep in Mind
 
-This course is **new** this semester
+This is a **large, hands-on course**
 
--   There **will be bugs** ...
--   ... We'll work through them together
+* With many students and live tools, occasional technical issues can occur.
+* If something doesn’t work, raise your hand. We'll work together on fixes and workarounds.
 
-Mix of students at various levels, from various backgrounds
+You’ll be **learning with people from different backgrounds**
 
--   Learn from other's unique perspectives
+* Expect a mix of experience levels.
+* Use this as an advantage: compare approaches, explain your reasoning, and learn from each other.
 
-We, the lecturers, (awkwardly) straddle the line between different business disciplines
+Our **approach is interdisciplinary**
 
--   We care about 'mechanisms' and explaining why things happen
--   We care about more than established business "theories"
--   We're not 'data scientists' or computer scientists
--   $\implies$ pragmatism towards analysis that asks and answers interesting questions
+* We draw on multiple business disciplines and focus on explaining patterns and making defensible decisions with data.
+* The emphasis is on analysis that asks and answers meaningful questions — not just producing output.
 
 ## Course Objectives
 
@@ -324,8 +386,8 @@ On successful completion of this subject, students should be able to:
 **1. Foundations**
 
 -   What is Business Analytics? (Week 1)
--   The Core Skills of a Business Scientist (Week 2)
--   Reproducible Workflows (Week 2)
+-   The Core Skills of a Business Scientist (Week 1)
+-   Reproducible Analytics with R (Week 2)
 
 **2. Extracting First Insights**
 
@@ -337,19 +399,20 @@ On successful completion of this subject, students should be able to:
 ::: {.column width="50%"}
 \textbf{\alert{Weeks 6 - 12}}:
 
-**3. Finding and Storing Data**
-
--   Storing & Using Data (Week 6)
--   Collecting Data (Week 7)
-
 **4. Extracting Deeper Insights**
 
--   Finding Variation in Data (Week 8)
--   Descriptive Analytics (Week 9)
--   Causal Analytics (Week 10)
--   Predictive Analytics (Week 11)
+-   Finding Variation in Data (Week 6)
+-   Descriptive Analytics (Week 7)
+-   Causal Analytics (Week 8)
+-   Predictive Analytics (Week 9)
 
-**5. Ethics and Privacy** (Week 12)
+**3. Finding and Storing Data**
+
+-   Storing & Using Existing Data (Week 10)
+-   Collecting Data from APIs (Week 11)
+
+
+**5. Course Conclusion** (Week 12)
 :::
 :::::
 
@@ -370,25 +433,103 @@ Why?
 
 \textbf{We'll introduce you to our computing environment in \alert{Next Week's lecture}}
 
+# Assessment 
+
 ## Assessment Summary
 
 | Assessment           | Timing              | Weight |
 |----------------------|---------------------|--------|
 | Weekly quizzes       | Throughout semester | 10%    |
-| Assignment 1         | Week 6              | 15%    |
-| Assignment 2         | Week 12             | 25%    |
+| Mid Semester Test    | Week 6              | 10%    |
+| Group Assignment     | Week 12             | 30%    |
 | Final exam (2 hours) | Examination period  | 50%    |
 
-Remarks:
+**\alertc{All assessment pieces may require you to write and interpret code}**
 
--   Weekly quizzes start in Week 3.
--   Assignments must be completed in **randomly assigned** groups.
--   **Hurdle Requirement**: To pass this subject, students must achieve at least 50% in the final exam.
--   See Syllabus & Canvas for further information.
+
+## Weekly Quizzes
+
+**\alert{When}**: Starting from Week 3
+
+**\alert{Where}**: In your workshop, completed on paper at the start of class
+
+**\alert{How}**: ~10 minutes, 5 questions, based on the week’s assigned preparation material. 
+
+* Up to two quizzes may be missed without penalty
+* If you are late to class, you cannot complete the quiz 
+
+**\alert{Why}**: To encourage steady weekly preparation, help you identify gaps early, and make workshops more productive and hands-on.
+
+
+## Mid Semester Test
+
+**\alert{When}**: Week 6 
+
+* Available over a short time window, details TBA
+
+**\alert{Where}**: On Canvas
+
+**\alert{How}**: One attempt, 30 minutes once started
+
+* Mix of multiple-choice and short-answer questions. 
+* Covers the first five weeks of lecture content.
+
+**\alert{Why}**: To check your understanding early, reinforce core concepts and workflows before we move into later topics.
+
+
+## Group Assignment 
+
+**\alert{When}**: Posted Monday of Week 9, due 23:59 Friday of Week 12 
+
+* Groups allocated in Week 8
+
+**\alert{Where}**: Submitted on Canvas as one HTML generated from the provided template
+
+**\alert{How}**: 
+
+* WE provide you with a dataset.
+* YOU Propose/select a research question
+* YOU run a reproducible analysis (descriptive, causal, or predictive). 
+* YOU communicate results in two formats: an Analytics Team Memo and a Corporate Brief.
+
+**\alert{Why}**: To practise an end-to-end analytics project 
+
+* Show us the technical skills you have acquired over the course
+* Learn how to communicate in organisations — from detailed analysis for peers/managers to concise recommendations for executives.
+
+
+## Final Exam
+
+**\alert{When}**: During the University exam period (date/time published by the University)
+
+**\alert{Where}**: In-person exam venue (as scheduled by the University)
+
+**\alert{How}**: 2 hours, hand-written. 
+
+* 20 multiple-choice questions (40%)
+* Approx 4 short-answer questions with subparts (60%). 
+* Covers **all** material from lectures, workshops, and assigned readings.
+
+**\alert{Why}**: To assess your ability to apply the full course toolkit—reasoning about data, interpreting outputs, and communicating insights.
+
+## Questions about Assessment
+
+\begin{center}
+\textbf{Ask \alert{Lachlan, Pat, Tasneem and Karlo} \\ about assessment related questions}
+\end{center}
+
+\vspace{1cm}
+
+This means **your tutor will not discuss course assessments** with you
+
+* Except for your Quiz grades
+
+# Gen AI Use in This Class
+
 
 ## GenAI and This Course
 
-| AI Use Case | Before Assignment 1 | After Assignment 1 |
+| AI Use Case | Before Mid Sem Test | After Mid Sem Test |
 |-----------------------------|--------------------|-----------------------|
 | Writing or debugging code | Not allowed | Allowed with documentation |
 | Asking AI to explain concepts/code | Allowed | Allowed |
@@ -398,7 +539,22 @@ Remarks:
 
 Early exposure to the building blocks of programming — syntax, logic, debugging — gives you a foundation to later harness AI as a tool for solving business analytics problems.
 
--   See Syllabus for more details
+
+## Why Human Judgment Still Matters
+
+AI can (usually) write code, generate charts, and surface patterns. But it can’t:
+
+- Understand business context  
+- Judge what matters  
+- Navigate politics or ambiguity  
+- Communicate with nuance  
+
+Implication: AI can help spot patterns—but **only people know what they mean, why they matter, and what to do next**.
+
+Use AI as a **tool**, not a replacement
+ 
+* Good analysts use AI to work faster—**not to think less**.
+
 
 ## 
 
@@ -468,11 +624,11 @@ knitr::include_graphics(url)
 
 **Stage 3: Advanced Analytics**
 
--   \alert{Predictive models} and machine learning to
+-   \alert{Predictive models} to
     1.  Forecast future outcomes; and
     2.  Identify hidden patterns.
 -   Gives \alert{accurate predictions of the future}
--   Doesn't answer strategic/ what if questions well
+-   Doesn't answer strategic/"what if" questions well
 
 ## Evolution of Business Decision Making
 
@@ -487,146 +643,53 @@ knitr::include_graphics(url)
 -   "What happens if we do X instead of Y?"
 -   Modern business analytics is as much about learning and adapting as it is about measuring and predicting
 
-## The Business Analytics Process
-
-\vspace{0.75cm}
-
-> “Data are widely available; what is scarce is the ability to extract wisdom from them.” — Hal Varian, Chief Economist at Google
-
-1.  **Defining the Problem** — What decision needs to be made? What are the options? What does success look like?
-
-2.  **Collecting and Cleaning Data** — Gathering relevant data sources and ensuring they’re accurate, complete, and reliable.
-
-3.  **Analyzing Data Appropriately** — Identify patterns, test hypotheses, and quantify trade-offs.
-
-4.  **Communicating Insights** — Tell persuasive, relatable stories with data that clarify the decision at hand and guide action.
-
-5.  **Acting to Create Value** — The goal is not analysis for its own sake, but to generate insights that drive strategy, improve operations, or better serve customers.
-
 ## Three Types of Business Analytics
 
 **Fundamental goal:** to make smarter, more confident choices in an uncertain world.
 
--   **\alert{Different business problems require}** different types of insight—and therefore, **\alert{different analytical tools}**.
+- **\alert{Different business problems require}** different types of insight—and therefore, **\alert{different analytical tools}**.
 
 Broadly categorized into 3 types of business analytics
 
-1.  Descriptive analytics
-2.  Predictive Analytics
-3.  Causal Analytics
+1. Descriptive analytics
+2. Predictive Analytics
+3. Causal Analytics
 
-Let's discuss each in turn...
+## Three Types of Business Analytics
 
-## Descriptive Analytics
-
-**\alert{Descriptive Analytics}**: **Summarizing** and reporting **what has already occurred** in a business.
-
-**Examples**:
-
--   What were our total sales last quarter?
--   Which products had the highest return rates?
--   What were the top 10 ASX-listed companies by shareholder return in 2024?
-
-**Tools**:
-
--   Summary statistics, tables, visualizations, and dashboards.
-
-**Role**:
-
--   Organize past data in a way that helps managers understand performance, spot trends, or identify anomalies.
-
-## Predictive Analytics
-
-**\alert{Predictive analytics}**: Uses past data to **forecast future outcomes**.
-
-**Examples**:
-
--   How many customers are likely to churn next month?
--   How are annual depreciation expenses likely to change over the next three years?
--   Will the RBA cut interest rates next month, and if so by how many basis points?
-
-**Tools**:
-
--   Techniques that identify patterns and extrapolate them forward.
-
-**Role**:
-
--   Give decision-makers a probabilistic view of likely outcomes.
-
-## Causal Analytics
-
-**\alert{Causal Analytics}**: What would **happen** if we **did X instead of Y**?
-
-**Examples**:
-
--   What impact will a 10% price increase have on demand?
--   How will a merger affect the takeover firm's share price?
--   Would switching to a new supplier improve delivery times?
-
-**Tools**:
-
--   Cleverly crafted comparisons to figure out what actually causes what.
-
-**Role**:
-
--   The decision engine of analytics: it helps businesses not just anticipate the future, but change it deliberately.
-
-## Summary
 
 | Type | Core Question | Typical Tools | Business Use |
-|-----------------|-----------------|--------------------|-----------------|
+|---|---|---|---|
 | Descriptive | What happened? | Summaries, visualizations | Reporting and monitoring |
 | Predictive | What might happen? | Forecasting, classification | Anticipating future trends |
 | Causal (Prescriptive) | What will happen if we act? | Experiments, causal inference | Strategy and decision-making |
 
-## Exercise
+# Core Skills of a Business Scientist
 
-For each question below, identify whether it requires **Descriptive**, **Predictive**, or **Causal** analytics:
+## Core Skills of a Business Scientist
 
-1.  "Which marketing channels generated the most leads last month?"
-    -   Type: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-2.  "How will our share price change if we replace our CEO with our current COO?"
-    -   Type: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-3.  "Which customers are most likely to upgrade to our premium service?"
-    -   Type: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-4.  "Which of our product lines account for the largest share of corporate overhead expenses?"
-    -   Type: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-5.  "Would offering free shipping increase our conversion rate?"
-    -   Type: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-6.  "Will analysts issue a buy/hold/sell recommendation for our stock next week?"
-    -   Type: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+> “Data are widely available; what is scarce is the ability to extract wisdom from them.” — Hal Varian, Chief Economist at Google
 
-## Good Decisions Need Good Data
+**\alert{Current Reality}**: Using data to **\alertc{tackle messy, ambiguous, and important}** business problems.
 
-**Principle:** \alert{Garbage in, garbage out}.
+This Requires:
 
--   **Analytics** doesn't make decisions, it **supports decision-making**.
+- Judgement  
+- Sharp, answerable questions  
+- Knowing which tools to use—and when
 
-The **quality** of that support **depends on the inputs we provide.**
+## The 8 Skills of a Business Scientist
 
--   ... And the care with which we interpret the results.
+- **\alert{Institutional Detail}**: Understanding the Business World
+- **\alert{Data Discovery}**: Finding the Right Data
+- **\alert{Business Theory}**: Understand People and Firms
+- **\alert{Analytical Modelling}**: Choose the Right Tool
+- **\alert{Analytical Theory}**: Know What Can Go Wrong
+- **\alert{Computational Skills}**: Work with Code and Technology
+- **\alert{Presentation \& Communication}**: Communicating what you find
+- **\alert{Creativity \& Judgment}**: Asking the Right Questions
 
-\alert{Implication}: How **data is collected, stored and managed influences** the **quality of analytics** that follows
-
--   We'll spend a couple of weeks understanding this space too
-
-## Analytics Doesn't Eliminate Uncertainty
-
-**Principle:** \alert{All models are simplifications.}.
-
--   Models help us focus on what matters, but they also leave things out.
-
-\alert{Implications}: Even with data ...
-
-**1. Uncertainty remains**. We make decisions under incomplete information or ambiguous results.
-
-**2. Trade-offs persist**. No model can fully resolve business tensions. These are managerial choices, not statistical ones.
-
--   Examples: short-term gains and long-term investments, or between efficiency and innovation
-
-**3. Judgment is essential**. Good analysts don’t just perform analysis—they think critically, question results, and connect the data to the broader context.
-
-# A Taste of What is to Come
+Let's see these skills in action ...
 
 ## 
 
@@ -644,15 +707,22 @@ knitr::include_graphics(url)
 
 ## Motivation
 
-\alert{Business question}: Does adding personalized content improve email effectiveness?
+**\alert{Business question}**: Does adding personalized content improve email effectiveness?
 
 **Why study this?** Personalized content $\rightarrow$ noninformative content
 
--   **Prevailing wisdom** is that noninformative content **should not influence consumer behaviour**
+-   Prevailing wisdom is that noninformative content should not influence consumer behaviour
 -   Most businesses engage in this practice
 -   Email marketers have access to this information
 
-{{< fa rocket >}} How would you go about answering this question?
+\vspace{0.25cm}
+
+{{< fa rocket >}} **Why might email personalization improve email effectiveness?**
+
+\vspace{0.5cm}
+
+{{< fa lightbulb >}} **\alertc{Core Skills}**: Business Theory, Creativity and Judgement
+
 
 ## One way forward
 
@@ -662,6 +732,10 @@ How we're going to answer this question:
 -   **Varies personalization** & across contexts
 
 Discussion based on [\alertc{Sahni, Wheeler and Chintagunta (2018)}](https://pubsonline.informs.org/doi/10.1287/mksc.2017.1066)
+
+\vspace{1cm}
+
+{{< fa lightbulb >}} **\alertc{Core Skills}**: Analytical Modelling
 
 ## Field Experiments in One Slide
 
@@ -706,6 +780,11 @@ And **can construct ratios** using these...
 
 and so on ...
 
+\vspace{0.5cm}
+
+{{< fa lightbulb >}} **\alertc{Core Skills}**: Institutional Detail, Data Discovery
+
+
 ## The Experiments
 
 ```{r, echo = FALSE, fig.align = "center", out.width="80%"}
@@ -713,7 +792,11 @@ url <- "figs/swc_experiments.png"
 knitr::include_graphics(url)
 ```
 
-**Today's Focus**: Experiments 1 and 4.
+**Let's focus on Experiment 1.**
+
+\vspace{0.5cm}
+
+{{< fa lightbulb >}} **\alertc{Core Skills}**: Institutional Detail, Business Theory
 
 ## Experiment 1: Context
 
@@ -736,6 +819,17 @@ Eg: "Learn Financial Modeling from Industry Experts"
 
 Eg: "Jack, Learn Financial Modeling from Industry Experts"
 
+\vspace{1cm}
+
+{{< fa lightbulb >}} **\alertc{Core Skills}**: Analytical Modelling
+
+
+## Experiment 1: Predictions
+
+\begin{center}
+\textbf{\alert{What do YOU think will happen?}}
+\end{center}
+
 ## Experiment 1: Results
 
 ```{r, echo = FALSE, fig.align = "center", out.width="100%"}
@@ -743,101 +837,9 @@ url <- "figs/experiment_1_results.png"
 knitr::include_graphics(url)
 ```
 
-## Mechanisms: Answering the "Why"
+\vspace{0.5cm}
 
-\vspace{-4cm}
-
-**Lurking question**: Why did we observe this difference?
-
--   Academic wisdom suggests we shouldn't have seen differences
--   We **want to know why** a difference occurs
--   The "why" is known as \alert{"the mechanism"}
-
-**\alert{Exercise}**: Write down mechanisms you think could be driving the results.
-
-## Potential Mechanisms In the Email Context
-
-The authors propose 3 mechanisms could be driving their results:
-
--   \[**A**\] Drawing **a**ttention to the email
--   \[**O**\] Shape **o**pinions of reciever / positive cue
--   \[**E**\] Increased **e**laboration via recipient processing
-
-**Question 1**: Are these **really** the only possible mechanisms?
-
-**Question 2**: What are the **consequences** of not finding the right mechanism?
-
-## Mechanisms Predict Different Outcomes
-
-Different mechanisms $\rightarrow$ different patterns in outcome variables
-
--   Increased **opens** of personalized emails
-    -   Consistent with A, O, E
--   **Unsubscriptions**
-    -   Increase under A, decrease under O and E
--   **Leads**
-    -   increase under E and O ...
-    -   ... more evidence for E if even more leads when a discount mentioned
-
-## Experiment 4: Mechanisms
-
-Identify whether mechanism related to:
-
--   **"Increasing elaboration"**
-    -   Noninformative content increases message processing
--   **"Serving as a positive cue"**
-    -   Noninformative content increases the recipients liking of the advertiser.
-
-## Experiment 4: Design
-
-```{r, echo = FALSE, fig.align = "center", out.width="70%"}
-url <- "figs/experiment_4_design.png"
-knitr::include_graphics(url)
-```
-
-**Doesn't mention discount size** due to worries of being spam filtered
-
-## Experiment 4: Context
-
-```{r, echo = FALSE, fig.align = "center", out.width="100%"}
-url <- "figs/experiment_4_email.png"
-knitr::include_graphics(url)
-```
-
-## Experiment 4: Results
-
-```{r, echo = FALSE, fig.align = "center", out.width="100%"}
-url <- "figs/experiment_4_descriptives.png"
-knitr::include_graphics(url)
-```
-
-## Experiment 4: Results
-
-```{r, echo = FALSE, fig.align = "center", out.width="60%"}
-url <- "figs/experiment_4_teststats.png"
-knitr::include_graphics(url)
-```
-
-**Statistical Tests**:
-
--   Don't worry about the details per se (today!)
--   We are looking for values in the table \< 0.05 to indicate a significant difference in average behaviour between emails
-
-## Experiment 4: Results
-
-```{r, echo = FALSE, fig.align = "center", out.width="60%"}
-url <- "figs/experiment_4_teststats.png"
-knitr::include_graphics(url)
-```
-
-\vspace{-0.5cm}
-
-**Statistical Tests**:
-
--   **A vs B**: adding name alone has no significant effect
--   **B vs D**: adding name in presence of discount increases leads
-
-$\implies$ name increases engagement $\implies$ via elaboration mechanism
+{{< fa lightbulb >}} **\alertc{Core Skills}**: Computational Skills, Presentation & Communication
 
 ## Is it THAT easy? ... Likely Not
 
@@ -865,31 +867,22 @@ BUT
 
 "... we do find that **using the surname of the recipient has a positive effect on opening rates and click-through rates**; an indication that similar marketing techniques still have potential, but that they need to be more creative and surprising"
 
+\vspace{1cm}
+
+{{< fa lightbulb >}} **\alertc{Core Skills}**: Analytical Theory
+
 # Wrapping Up
-
-## Data Use Raises Ethics Issues
-
-Decision about what data to collect, how to analyze it, and how to act on it involves ethical considerations.
-
-Three core ethical concerns
-
-**1. Avoid bias**: Analysis can reflect—and even amplify—existing biases in the data.
-
-**2. Protect privacy**. Complying with legal requirements (like the GDPR or Australia's Privacy Act), but also going beyond compliance to ask: *Are we using this data in ways that our stakeholders would consider reasonable and respectful?*
-
-**3. Promote fairness.** Decisions driven by analytics can have real consequences. Ethical analytics means being transparent about how decisions are made and striving to ensure that outcomes are just and inclusive.
-
-\begin{center}
-\textbf{Ethical considerations are \alertc{not} optional}
-\end{center}
 
 ## How to Approach this Course
 
-Becoming a business analyst means **developing a wide-ranging skillset** — one that draws on data, code, storytelling, and judgment.
+**\alert{Your Goal}**: **developing a wide-ranging skillset** 
 
-**This course is your first step** into the world of business analytics—and it’s **meant to be challenging, empowering, and fun**.
+* That draws on data, code, storytelling, and judgment.
 
-But there may be moments where it feels overwhelming, hard, too technical or unclear. We aim to tackle those together.
+**\alert{This course is your first step}** 
+
+* It’s **meant to be challenging, empowering, and fun**.
+* But there may be moments where it feels overwhelming, hard, too technical or unclear. We aim to tackle those together.
 
 ## What if I don't know everything yet?
 
@@ -918,7 +911,7 @@ What we ask of you:
 -   **Defined what business analytics** is in the context of this course
 -   **Met the teaching team**
 -   **Discussed the main administrative matters** from the Course Syllabus
--   **Explained different types of analysis** typical in business analytics
+-   **Described the core skills** of a business scientist
 -   **Explored** an example analytics problem: **Email personalization**
 
 \textbf{\alertc{Next week's tutorial}}:
@@ -927,8 +920,7 @@ What we ask of you:
 
 \textbf{\alertc{Next week's lecture}}:
 
-1.  **What are the core skills** of a business analyst / scientist?
-2.  How to **work with** the course's **computing environment**.
+1.  How to **work with** the course's **computing environment**.
 
 ## References
 
