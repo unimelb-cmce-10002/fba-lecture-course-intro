@@ -717,7 +717,7 @@ knitr::include_graphics(url)
 
 \vspace{0.25cm}
 
-{{< fa rocket >}} **Why might email personalization improve email effectiveness?**
+{{< fa rocket >}} **Does email personalization improve email effectiveness? And Why?**
 
 \vspace{0.5cm}
 
